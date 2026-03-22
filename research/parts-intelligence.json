@@ -1,0 +1,934 @@
+{
+  "metadata": {
+    "generated": "2026-03-21",
+    "version": "1.0",
+    "brand_count": 50,
+    "notes": "Phone numbers and URLs verified via web research. If a phone number could not be verified, it was omitted. All data sourced from official brand sites, supplier sites, consumer reports, and repair community forums."
+  },
+
+  "brand_specific_sources": {
+    "Life Fitness": [
+      {
+        "supplier": "Life Fitness Parts Store (Official)",
+        "url": "https://www.lifefitness.com/en-us/customer-support/service/order-parts",
+        "phone": "800-351-3737",
+        "notes": "Official parts for Life Fitness, Cybex, SCIFIT, Hammer Strength, and ICG. Press 2 for parts. M-F 7am-6pm CT. $4.95 convenience fee for call-in orders. US Commercial customers only for online store."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com/manufacture.aspx?cc=0&brd=LifeFitness",
+        "phone": "800-496-7278",
+        "notes": "Extensive OEM and aftermarket Life Fitness parts catalog. Good for older/discontinued models."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/lifefitness/",
+        "phone": "888-713-2880",
+        "notes": "Large selection of Life Fitness parts. 30+ years in business."
+      }
+    ],
+    "Hammer Strength": [
+      {
+        "supplier": "Life Fitness Parts Store (Official)",
+        "url": "https://www.lifefitness.com/en-us/customer-support/service/order-parts",
+        "phone": "800-351-3737",
+        "notes": "Hammer Strength is a Life Fitness brand. Same parts store and phone number. Press 2 for parts."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com",
+        "phone": "800-496-7278",
+        "notes": "Carries Hammer Strength replacement parts. Good commercial parts inventory."
+      }
+    ],
+    "Cybex": [
+      {
+        "supplier": "Life Fitness Parts Store (Official)",
+        "url": "https://www.lifefitness.com/en-us/customer-support/service/order-parts",
+        "phone": "800-351-3737",
+        "notes": "Cybex is now under the Life Fitness umbrella. Same ordering system. Press 2 for parts."
+      },
+      {
+        "supplier": "FitnessRepairParts.com",
+        "url": "https://www.fitnessrepairparts.com/brand/cybex",
+        "phone": "636-634-2202",
+        "notes": "Good Cybex parts selection including older models."
+      }
+    ],
+    "SCIFIT": [
+      {
+        "supplier": "Life Fitness Parts Store (Official)",
+        "url": "https://www.lifefitness.com/en-us/customer-support/service/order-parts",
+        "phone": "800-351-3737",
+        "notes": "SCIFIT is part of Life Fitness family. Same parts ordering system."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com/manufacture.aspx?cc=0&brd=SciFit",
+        "phone": "800-496-7278",
+        "notes": "OEM and aftermarket SCIFIT parts."
+      }
+    ],
+    "Technogym": [
+      {
+        "supplier": "Technogym Official Service",
+        "url": "https://www.technogym.com/en-US/technical-support/",
+        "phone": "800-804-0952",
+        "notes": "Official parts and service. Proprietary consoles — must order through Technogym. Can be expensive and slow. Warranty voided if unauthorized parts used."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/technogym/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Technogym parts. Good alternative for non-electronic components."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com/manufacture.aspx?cc=0&brd=Technogym",
+        "phone": "800-496-7278",
+        "notes": "OEM Technogym parts. Good for commercial facilities."
+      }
+    ],
+    "Precor": [
+      {
+        "supplier": "Precor Official Support",
+        "url": "https://www.precor.com/en-US/support",
+        "phone": "800-347-4404",
+        "notes": "Commercial support, technical support, parts. M-F. Extensive experience."
+      },
+      {
+        "supplier": "Precor At Home",
+        "url": "https://precorathome.com/pages/contact-us",
+        "phone": "888-665-4404",
+        "notes": "For home/residential Precor equipment. Technical support for purchases from Precor.com or Amazon."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/precor/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket and OEM Precor parts."
+      }
+    ],
+    "Peloton": [
+      {
+        "supplier": "Peloton Official Replacement Parts",
+        "url": "https://www.onepeloton.com/shop/replacement-parts",
+        "phone": "866-679-9129",
+        "notes": "Official Peloton parts. Carries pedals, screens, power cords, safety keys, cleats. Filterable by device (Bike, Bike+, Tread, Tread+, Row). Must use Peloton screens — no third-party replacements for displays."
+      },
+      {
+        "supplier": "PeloSmith",
+        "url": "https://www.pelosmith.com/",
+        "notes": "Third-party Peloton-compatible parts: pedals, crank arms, bottom brackets. Good alternative for mechanical components."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/peloton/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Peloton parts."
+      }
+    ],
+    "NordicTrack": [
+      {
+        "supplier": "iFIT/ICON Service (Official)",
+        "url": "https://www.iconservice.com/",
+        "phone": "888-308-9616",
+        "notes": "Official parts for NordicTrack (iFIT/ICON brand). Non-warranty parts available online. Requires model number. Can be slow to ship. iFIT support: 877-993-7999."
+      },
+      {
+        "supplier": "NordicTrackParts.com",
+        "url": "https://www.nordictrackparts.com/",
+        "notes": "Aftermarket NordicTrack parts. Good selection."
+      },
+      {
+        "supplier": "Treadmill Doctor",
+        "url": "https://www.treadmilldoctor.com/",
+        "phone": "888-362-1105",
+        "notes": "Excellent aftermarket and OEM NordicTrack parts. Often faster shipping than official. Wide selection of belts, motors, controllers."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/nordictrack/",
+        "phone": "888-713-2880",
+        "notes": "Large NordicTrack parts inventory."
+      }
+    ],
+    "ProForm": [
+      {
+        "supplier": "iFIT/ICON Service (Official)",
+        "url": "https://www.iconservice.com/",
+        "phone": "888-308-9616",
+        "notes": "Same parent company as NordicTrack (iFIT/ICON). Same parts ordering system and phone number."
+      },
+      {
+        "supplier": "Treadmill Doctor",
+        "url": "https://www.treadmilldoctor.com/",
+        "phone": "888-362-1105",
+        "notes": "Great ProForm parts selection. Many parts cross-compatible with NordicTrack."
+      },
+      {
+        "supplier": "Pelotek Parts",
+        "url": "https://pelotekparts.com/",
+        "notes": "Carries ProForm, Peloton, and NordicTrack parts."
+      }
+    ],
+    "Freemotion": [
+      {
+        "supplier": "iFIT/ICON Service (Official)",
+        "url": "https://www.iconservice.com/",
+        "phone": "888-308-9616",
+        "notes": "Freemotion is an iFIT/ICON brand. Same parts system as NordicTrack and ProForm."
+      },
+      {
+        "supplier": "Hydra Fitness Parts",
+        "url": "https://hydrafitnessparts.com/collections/freemotion-fitness-repair-parts",
+        "phone": "847-309-2818",
+        "notes": "New and used Freemotion parts. Good for discontinued models."
+      }
+    ],
+    "Weider": [
+      {
+        "supplier": "iFIT/ICON Service (Official)",
+        "url": "https://www.iconservice.com/",
+        "phone": "888-308-9616",
+        "notes": "Weider is an iFIT/ICON brand. Same parts system. Budget line — many parts shared with ProForm and NordicTrack."
+      },
+      {
+        "supplier": "Hydra Fitness Parts",
+        "url": "https://hydrafitnessparts.com/collections/weider-fitness-replacement-parts",
+        "phone": "847-309-2818",
+        "notes": "Good selection of Weider parts including strength equipment."
+      }
+    ],
+    "Weslo": [
+      {
+        "supplier": "iFIT/ICON Service (Official)",
+        "url": "https://www.iconservice.com/",
+        "phone": "888-308-9616",
+        "notes": "Weslo is an iFIT/ICON budget brand. Same parts system. Many parts interchangeable with other ICON brands."
+      },
+      {
+        "supplier": "Treadmill Doctor",
+        "url": "https://www.treadmilldoctor.com/",
+        "phone": "888-362-1105",
+        "notes": "Aftermarket Weslo parts. Budget-friendly replacements."
+      }
+    ],
+    "Gold's Gym Home": [
+      {
+        "supplier": "iFIT/ICON Service (Official)",
+        "url": "https://www.iconservice.com/",
+        "phone": "888-308-9616",
+        "notes": "Gold's Gym Home equipment is manufactured by iFIT/ICON. Same parts system. Many parts shared across ICON brands."
+      },
+      {
+        "supplier": "Hydra Fitness Parts",
+        "url": "https://hydrafitnessparts.com/",
+        "phone": "847-309-2818",
+        "notes": "Carries Gold's Gym parts. Good for used/refurbished components."
+      }
+    ],
+    "Matrix": [
+      {
+        "supplier": "Johnson Fitness Parts (Official)",
+        "url": "https://parts.johnsonfitness.com/home",
+        "phone": "800-244-4192",
+        "notes": "Matrix is Johnson Health Tech's commercial brand. Official parts with fast shipping and 90-day warranty. Warranty line: 800-244-4192."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com",
+        "phone": "800-496-7278",
+        "notes": "Commercial Matrix parts. Good alternative to official."
+      }
+    ],
+    "Horizon": [
+      {
+        "supplier": "Johnson Fitness Parts (Official)",
+        "url": "https://parts.johnsonfitness.com/home",
+        "phone": "800-244-4192",
+        "notes": "Horizon is Johnson Health Tech's residential brand. Warranty support: 800-244-4192. Out of warranty: 888-993-3199. Parts email: horizonparts@johnsonfit.com."
+      },
+      {
+        "supplier": "Treadmill Doctor",
+        "url": "https://www.treadmilldoctor.com/",
+        "phone": "888-362-1105",
+        "notes": "Good selection of Horizon treadmill and elliptical parts."
+      }
+    ],
+    "Vision": [
+      {
+        "supplier": "Johnson Fitness Parts (Official)",
+        "url": "https://parts.johnsonfitness.com/home",
+        "phone": "800-244-4192",
+        "notes": "Vision Fitness is a Johnson Health Tech brand. Same parts system as Matrix and Horizon. Many parts cross-compatible within JHT family."
+      },
+      {
+        "supplier": "Hydra Fitness Parts",
+        "url": "https://hydrafitnessparts.com/",
+        "phone": "847-309-2818",
+        "notes": "New and used Vision Fitness parts."
+      }
+    ],
+    "Bowflex": [
+      {
+        "supplier": "Bowflex Official Parts",
+        "url": "https://parts.bowflex.com/home",
+        "phone": "800-605-3369",
+        "notes": "Official Bowflex parts with 90-day warranty. Same phone handles Bowflex, Schwinn, and Nautilus. Online troubleshooting guides available."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/bowflex/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Bowflex parts."
+      }
+    ],
+    "Schwinn": [
+      {
+        "supplier": "Schwinn Fitness Official / Bowflex",
+        "url": "https://www.schwinnfitness.com/customer-service.html",
+        "phone": "800-605-3369",
+        "notes": "Schwinn fitness equipment is under the same corporate umbrella as Bowflex and Nautilus. Same phone number for all three brands."
+      },
+      {
+        "supplier": "Krislynn Cycle and Fitness",
+        "url": "https://www.krislynn.net/",
+        "phone": "410-859-3538",
+        "notes": "Specialist in indoor cycling parts. Excellent for Schwinn spin bike brake pads, pedals, and accessories."
+      },
+      {
+        "supplier": "SpinBikeRepair.com",
+        "url": "https://www.spinbikerepair.com/",
+        "notes": "Specializes in Schwinn, Keiser, and BowFlex spin bike repair parts."
+      }
+    ],
+    "Nautilus": [
+      {
+        "supplier": "Nautilus Official Parts (via Bowflex)",
+        "url": "https://www.bowflex.com/nautilus-replacement-parts/",
+        "phone": "800-605-3369",
+        "notes": "Nautilus parts ordered through Bowflex system. Same phone number."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/nautilus/",
+        "phone": "888-713-2880",
+        "notes": "Large Nautilus parts inventory. Good for older models."
+      }
+    ],
+    "Sole": [
+      {
+        "supplier": "Sole Fitness Parts (Official)",
+        "url": "https://solefitnessparts.com/",
+        "phone": "717-303-3686",
+        "notes": "Official Sole parts. 9am-5pm EST M-F. Toll-free: 833-213-0334. Email: support@solefitnessparts.com."
+      },
+      {
+        "supplier": "Sole Treadmills Direct",
+        "url": "https://www.soletreadmills.com/pages/contact",
+        "notes": "Official Sole site for warranty and service requests. Use warranty request form for parts under warranty."
+      },
+      {
+        "supplier": "Treadmill Doctor",
+        "url": "https://www.treadmilldoctor.com/",
+        "phone": "888-362-1105",
+        "notes": "Good aftermarket Sole parts selection."
+      }
+    ],
+    "Spirit": [
+      {
+        "supplier": "Spirit Fitness Official",
+        "url": "https://www.spiritfitness.com/support",
+        "phone": "870-935-1107",
+        "notes": "Official Spirit Fitness parts. M-F 8am-7pm CST. Email: support@spiritfitness.com."
+      },
+      {
+        "supplier": "Spirit Parts (spirit.parts)",
+        "url": "https://www.spirit.parts",
+        "notes": "Genuine Spirit Fitness and XTERRA parts. Free tech support included."
+      }
+    ],
+    "XTERRA": [
+      {
+        "supplier": "XTERRA Fitness Official",
+        "url": "https://www.xterrafitness.com/contact-us",
+        "phone": "870-336-4286",
+        "notes": "XTERRA is manufactured by Spirit Fitness. Email: parts@spiritfitness.com."
+      },
+      {
+        "supplier": "Spirit Parts (spirit.parts)",
+        "url": "https://www.spirit.parts",
+        "notes": "Same supplier as Spirit Fitness. Genuine XTERRA parts available."
+      }
+    ],
+    "StairMaster": [
+      {
+        "supplier": "Core Health & Fitness (Official)",
+        "url": "https://shop.corehandf.com/",
+        "phone": "800-228-6635",
+        "notes": "StairMaster is a Core Health & Fitness brand. Also covers Schwinn commercial, Nautilus commercial, and Star Trac."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com",
+        "phone": "800-496-7278",
+        "notes": "Extensive StairMaster parts catalog. Good for older Gauntlet and StepMill models."
+      },
+      {
+        "supplier": "FitnessRepairParts.com",
+        "url": "https://www.fitnessrepairparts.com/brand/stairmaster",
+        "phone": "636-634-2202",
+        "notes": "OEM StairMaster parts with diagrams."
+      }
+    ],
+    "Star Trac": [
+      {
+        "supplier": "Core Health & Fitness (Official)",
+        "url": "https://shop.corehandf.com/",
+        "phone": "800-228-6635",
+        "notes": "Star Trac is a Core Health & Fitness brand. Same system as StairMaster."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/startrac/",
+        "phone": "888-713-2880",
+        "notes": "Good Star Trac parts selection."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com/manufacture.aspx?cc=0&brd=Startrac",
+        "phone": "800-496-7278",
+        "notes": "OEM Star Trac parts."
+      }
+    ],
+    "True Fitness": [
+      {
+        "supplier": "True Fitness Official",
+        "url": "https://truefitness.com/services-support/service-parts-request/",
+        "phone": "800-883-8783",
+        "notes": "Official True Fitness parts. M-F 8:30am-5pm CST. Service request form available online."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com/manufacture.aspx?cc=0&brd=True",
+        "phone": "800-496-7278",
+        "notes": "OEM and aftermarket True parts."
+      },
+      {
+        "supplier": "Hydra Fitness Parts",
+        "url": "https://hydrafitnessparts.com/collections/true-fitness-repair-parts",
+        "phone": "847-309-2818",
+        "notes": "New and used True Fitness parts."
+      }
+    ],
+    "Octane Fitness": [
+      {
+        "supplier": "Octane Fitness Official",
+        "url": "https://octanefitness.com/resources/service-request/",
+        "phone": "800-726-9662",
+        "notes": "Official Octane Fitness service department. M-F 8:30am-6pm CST. Online service request form available."
+      },
+      {
+        "supplier": "Hydra Fitness Parts",
+        "url": "https://hydrafitnessparts.com/",
+        "phone": "847-309-2818",
+        "notes": "Carries Octane Fitness parts."
+      }
+    ],
+    "Inspire": [
+      {
+        "supplier": "Inspire Fitness Official",
+        "url": "https://inspirefitness.com/pages/part-request",
+        "phone": "877-738-1729",
+        "notes": "Official Inspire Fitness parts. M-F 8am-5pm PST. Part request form available on website."
+      }
+    ],
+    "Body-Solid": [
+      {
+        "supplier": "Body-Solid Official",
+        "url": "https://www.bodysolid.com/service/parts_service_request/",
+        "phone": "800-556-3113",
+        "notes": "Official Body-Solid parts. M-F 9am-5pm CST. Email: service@bodysolid.com. Fax: 708-427-3556."
+      }
+    ],
+    "Hoist": [
+      {
+        "supplier": "Hoist Fitness Official",
+        "url": "https://www.hoistfitness.com/pages/parts-order-form",
+        "phone": "800-548-5438",
+        "notes": "Toll-free: 800-548-LIFT. Direct: 858-578-7676. M-F 7am-4:30pm PST. Email: HOISTProductSupport@hoistfitness.com. Online parts order form available."
+      },
+      {
+        "supplier": "GymPart.com (National Gym Supply)",
+        "url": "https://www.gympart.com/manufacture.aspx?cc=0&brd=Hoist+Fitness",
+        "phone": "800-496-7278",
+        "notes": "OEM Hoist parts."
+      }
+    ],
+    "TuffStuff": [
+      {
+        "supplier": "TuffStuff Fitness Official",
+        "url": "https://tuffstuff.us/contact/",
+        "phone": "909-629-1600",
+        "notes": "Direct manufacturer. M-F 7am-4pm PST. Email: info@tuffstuff.us."
+      },
+      {
+        "supplier": "FitnessRepairParts.com",
+        "url": "https://www.fitnessrepairparts.com/brand/tuff-stuff",
+        "phone": "636-634-2202",
+        "notes": "Carries TuffStuff parts with diagrams."
+      }
+    ],
+    "Bodycraft": [
+      {
+        "supplier": "Bodycraft Official",
+        "url": "https://www.bodycraft.com/parts-request/",
+        "phone": "800-990-5556",
+        "notes": "M-F 9am-5pm EST. Strength tech: ext 410 (Jared). Cardio tech: ext 406 (Rick). Billing: ext 412 (Carol). Email: service@bodycraft.com."
+      }
+    ],
+    "Landice": [
+      {
+        "supplier": "Landice Official",
+        "url": "https://fitness.landice.com/landice-genuine-parts",
+        "phone": "800-526-3423",
+        "notes": "800-LANDICE. Direct: 973-927-9010. Email: Service@landice.com. Online parts request form with photo upload. Will sell parts post-warranty."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/landice/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Landice parts."
+      }
+    ],
+    "Woodway": [
+      {
+        "supplier": "Woodway USA Official",
+        "url": "https://www.woodway.com/support/",
+        "phone": "800-966-3929",
+        "notes": "800-WOODWAY. Option 3 for service/support. M-F 8am-5pm CT. Email: service@woodway.com. Premium treadmills — parts can be expensive."
+      }
+    ],
+    "SportsArt": [
+      {
+        "supplier": "SportsArt Official",
+        "url": "https://www.gosportsart.com/contact/",
+        "phone": "866-709-1750",
+        "notes": "Official SportsArt service department. Email: service@gosportsart.com."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/sportsart/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket SportsArt parts."
+      }
+    ],
+    "Concept2": [
+      {
+        "supplier": "Concept2 Official Parts Shop",
+        "url": "https://shop.concept2.com/53-parts",
+        "phone": "800-245-5676",
+        "notes": "Official Concept2 parts. US and Canada toll-free. Very well-organized parts shop by model (Model D, Model E, RowErg, BikeErg, SkiErg). Excellent self-service documentation."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/concept2/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Concept2 parts."
+      }
+    ],
+    "WaterRower": [
+      {
+        "supplier": "WaterRower Official",
+        "url": "https://www.waterrowerservice.com/spare-parts/",
+        "phone": "800-852-2210",
+        "notes": "Official WaterRower service and spare parts. Warren, RI based. Good documentation and service support."
+      }
+    ],
+    "Keiser": [
+      {
+        "supplier": "Keiser Official",
+        "url": "https://www.keiser.com/support",
+        "phone": "800-888-7009",
+        "notes": "Official Keiser parts. Direct: 559-256-8000. M-F 9am-5pm PT. Online parts order form. Email: service@keiser.com. Magnetic resistance system is proprietary — calibration requires Keiser Red Calibration Tool."
+      },
+      {
+        "supplier": "Krislynn Cycle and Fitness",
+        "url": "https://www.krislynn.net/keiser-m3",
+        "phone": "410-859-3538",
+        "notes": "Keiser M3 specialist. Repair questions and installation advice. Good for brake pads and wear items."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/keiser/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Keiser parts including M3 bike components."
+      }
+    ],
+    "Assault Fitness": [
+      {
+        "supplier": "Assault Fitness Official",
+        "url": "https://www.assaultfitness.com/pages/contact",
+        "phone": "888-815-5559",
+        "notes": "US and Canada toll-free. M-W 8am-12pm PST for phone. Email: customerservice@assaultfitness.com (M-F 8am-5pm PST). Parts for AssaultBike and AssaultRunner."
+      },
+      {
+        "supplier": "Sportsmith",
+        "url": "https://sportsmith.com/parts-by-brand/assault-fitness/",
+        "phone": "888-713-2880",
+        "notes": "Aftermarket Assault Fitness parts."
+      }
+    ],
+    "Rogue": [
+      {
+        "supplier": "Rogue Fitness Official",
+        "url": "https://www.roguefitness.com/replacement-parts",
+        "phone": "614-358-6190",
+        "notes": "Official Rogue parts for Echo Bike, Echo Rower, barbells, racks. High-quality genuine parts. Lifetime warranty on bars (purchased after 2009, defined as 10 years). Made in USA — good availability."
+      }
+    ],
+    "REP Fitness": [
+      {
+        "supplier": "REP Fitness Official",
+        "url": "https://repfitness.com/pages/contact-us",
+        "phone": "720-420-1731",
+        "notes": "M-F 9am-5pm MST, Sat 9am-3pm MST. Spares pages exist for specific products (Ares, PR-4000, etc). Denver-based."
+      }
+    ],
+    "Titan Fitness": [
+      {
+        "supplier": "Titan Fitness Official",
+        "url": "https://support.titan.fitness/hc/en-us/articles/38143221765133",
+        "phone": "800-605-7595",
+        "notes": "Press 5 for replacement parts. M-F 7am-5pm CST. Submit request through support.titan.fitness. Known for budget-friendly equipment — parts are correspondingly affordable."
+      }
+    ],
+    "Force USA": [
+      {
+        "supplier": "Force USA Official",
+        "url": "https://www.forceusa.com/pages/contact",
+        "phone": "385-557-2554",
+        "notes": "M-F 9am-5pm Mountain. Email: support@forceusa.com. Canada: 778-800-9501 (M-F 8am-4pm Pacific)."
+      }
+    ],
+    "Marcy": [
+      {
+        "supplier": "Impex Inc (Official - Marcy manufacturer)",
+        "url": "https://www.marcypro.com/pages/faq",
+        "phone": "800-999-8899",
+        "notes": "M-F 9am-5pm PST. Manufacturer of Marcy brand. Parts section on MarcyPro.com homepage. Ticket system at marcypro.freshdesk.com. Pomona, CA based."
+      }
+    ],
+    "Sunny Health": [
+      {
+        "supplier": "Sunny Health & Fitness Official",
+        "url": "https://sunnyhealthfitness.com/collections/parts",
+        "phone": "626-968-1000",
+        "notes": "M-F 9am-5pm. City of Industry, CA. Online parts catalog. Support at support.sunnyhealthfitness.com. Budget-friendly parts — some ship from China, check delivery times."
+      }
+    ],
+    "ProGear": [
+      {
+        "supplier": "Paradigm Health & Wellness (Official)",
+        "url": "https://www.paradigmhw.com/replacement-parts/",
+        "phone": "866-924-1688",
+        "notes": "M-F 8am-5pm PST. Email: service@paradigmhw.com. Manufacturer of ProGear and Exerpeutic brands. Have model number, serial number, and part number ready."
+      }
+    ],
+    "Exerpeutic": [
+      {
+        "supplier": "Paradigm Health & Wellness (Official)",
+        "url": "https://www.paradigmhw.com/replacement-parts/",
+        "phone": "866-924-1688",
+        "notes": "Same manufacturer as ProGear. M-F 8am-5pm PST. Email: service@paradigmhw.com."
+      }
+    ],
+    "Echelon": [
+      {
+        "supplier": "Echelon Official",
+        "url": "https://echelonfit.com/collections/replacement-parts",
+        "phone": "833-937-2453",
+        "notes": "WARNING: July firmware update bricked many machines without subscription. Display is subscription-locked. Very limited offline functionality. Text support: 423-205-1860."
+      }
+    ],
+    "Hydrow": [
+      {
+        "supplier": "Hydrow Official",
+        "url": "https://hydrow.com/listings/replacement-parts/",
+        "phone": "833-499-3769",
+        "notes": "Daily 9am-1pm ET. Proprietary electromagnetic resistance and screen. Without membership, only 'Just Row' mode available. 12-month warranty on components."
+      }
+    ],
+    "YOSUDA": [
+      {
+        "supplier": "YOSUDA Official",
+        "url": "https://yosudabikes.com/pages/contact-us",
+        "notes": "Email-only support. M-F 9am-5pm PST. Parts available on website and Amazon. Budget brand — consider stocking common wear items."
+      },
+      {
+        "supplier": "Amazon",
+        "url": "https://www.amazon.com/yosuda-bike-replacement-parts/s?k=yosuda+bike+replacement+parts",
+        "notes": "Many YOSUDA parts available on Amazon with fast Prime shipping. Often easier than ordering direct."
+      }
+    ],
+    "JOROTO": [
+      {
+        "supplier": "JOROTO Official",
+        "url": "https://jorotofitness.com/pages/contact-us",
+        "phone": "888-828-2521",
+        "notes": "Technical support: Sun-Thu PST 6pm-9pm (limited hours — China-based company). Email: support@jorotofitness.com. Parts available on website and Amazon."
+      }
+    ]
+  },
+
+  "universal_sources": [
+    {
+      "supplier": "Treadmill Doctor",
+      "url": "https://www.treadmilldoctor.com/",
+      "phone": "888-362-1105",
+      "component_types": ["walking_belts", "drive_belts", "motors", "motor_controllers", "rollers", "lubricant", "decks", "electronics", "incline_motors"],
+      "notes": "Best single source for treadmill parts. 80,000+ parts. Also carries elliptical and bike parts. Quality aftermarket options. Excellent diagnostic guides and videos. Highly recommended by repair community."
+    },
+    {
+      "supplier": "GymPart.com (National Gym Supply)",
+      "url": "https://www.gympart.com/",
+      "phone": "800-496-7278",
+      "component_types": ["all_commercial_parts", "consoles", "motors", "belts", "electronics", "strength_parts", "upholstery"],
+      "notes": "Best source for commercial equipment parts. LA-based (5500 W 83rd St). Carries Life Fitness, Precor, Technogym, Star Trac, Cybex, StairMaster, True, Hoist, and many more. OEM and aftermarket. 30+ years in business."
+    },
+    {
+      "supplier": "Sportsmith",
+      "url": "https://sportsmith.com/",
+      "phone": "888-713-2880",
+      "component_types": ["all_parts", "belts", "motors", "electronics", "grips", "upholstery", "bearings", "hardware"],
+      "notes": "120,000+ parts across 50+ brands. 30+ years in business. Tulsa, OK based. Excellent parts finder tool. Covers both commercial and residential equipment."
+    },
+    {
+      "supplier": "FitnessRepairParts.com",
+      "url": "https://www.fitnessrepairparts.com/",
+      "phone": "636-634-2202",
+      "component_types": ["all_parts", "motors", "controllers", "belts", "electronics", "sensors"],
+      "notes": "Operated by Fitness Plus Equipment Services. St. Charles, MO. M-F 8am-4:30pm CST. Good parts diagrams with exploded views. Covers most major brands."
+    },
+    {
+      "supplier": "Hydra Fitness Exchange / Hydra Fitness Parts",
+      "url": "https://www.hydrafitnessexchange.com/",
+      "phone": "847-309-2818",
+      "component_types": ["all_parts", "used_parts", "refurbished_parts", "consoles", "motors", "electronics"],
+      "notes": "Morton Grove, IL. New AND used parts — excellent for discontinued models. Est. 2006. M-F 10am-5pm. Also has express site at hydrafitnessparts.com. Beware of scam sites imitating them."
+    },
+    {
+      "supplier": "Amazon Fitness Parts",
+      "url": "https://www.amazon.com/s?k=fitness+equipment+replacement+parts",
+      "component_types": ["belts", "motors", "controllers", "lubricant", "pedals", "seats", "console_batteries", "hardware"],
+      "notes": "Fast Prime shipping. Good for universal parts (lubricant, belts, pedals, batteries). Check seller ratings carefully. Aftermarket quality varies. Best for budget brands and universal consumables."
+    },
+    {
+      "supplier": "eBay Fitness Parts",
+      "url": "https://www.ebay.com/b/Cardio-Equipment-Parts-Accessories/179797/",
+      "component_types": ["used_parts", "discontinued_parts", "consoles", "motors", "controllers", "electronics"],
+      "notes": "Best source for discontinued and hard-to-find parts. Used consoles, motors, and electronics. Check seller feedback. Good for iFIT consoles, Peloton screens, Technogym Unity displays that are no longer manufactured."
+    },
+    {
+      "supplier": "Cardio Equipment Parts",
+      "url": "https://www.cardioequipmentparts.com/",
+      "phone": "331-280-6027",
+      "component_types": ["treadmill_parts", "bike_parts", "elliptical_parts", "belts", "motors"],
+      "notes": "Romeoville, IL. Good selection of treadmill, bike, and elliptical parts. Covers Sole, Landice, and many other brands."
+    },
+    {
+      "supplier": "Krislynn Cycle and Fitness",
+      "url": "https://www.krislynn.net/",
+      "phone": "410-859-3538",
+      "component_types": ["spin_bike_parts", "brake_pads", "pedals", "seats", "handlebars", "chains"],
+      "notes": "Indoor cycling parts specialist. Trusted distributor for Schwinn, Star Trac, Lemond, Keiser, BowFlex spin bikes. Expert installation advice."
+    },
+    {
+      "supplier": "Belt Palace",
+      "url": "https://beltpalace.com/fitnessbelts.html",
+      "component_types": ["drive_belts", "poly_v_belts", "j_section_belts"],
+      "notes": "Specialist in fitness drive belts. Poly-V (J and PJ section) belts for all brands. If you know the belt code (e.g., 8PJ431), this is the place. Industrial-grade replacements."
+    }
+  ],
+
+  "cross_compatible_parts": [
+    {
+      "component_type": "treadmill_drive_belt",
+      "part_description": "Drive belt Part #306894 — fits multiple iFIT/ICON brands",
+      "fits_brands": ["NordicTrack", "ProForm", "Gold's Gym", "HealthRider"],
+      "fits_models": ["NordicTrack T5.5, T5.7, T8.0, T15, T16.0, T18.0", "ProForm various models", "Gold's Gym various models"],
+      "source": "Amazon, Treadmill Doctor, Sportsmith",
+      "price_range": "$15-30",
+      "notes": "iFIT/ICON brands share many drive belt sizes because they use common frame designs from the same factories. Always verify part number against your model before ordering."
+    },
+    {
+      "component_type": "treadmill_drive_belt",
+      "part_description": "Drive belt Part #255589 — cross-brand ICON belt",
+      "fits_brands": ["NordicTrack", "ProForm", "Reebok", "Gold's Gym", "Epic"],
+      "fits_models": ["Multiple treadmill models across ICON family"],
+      "source": "Treadmill Doctor, Sportsmith, Amazon",
+      "price_range": "$12-25",
+      "notes": "Another common cross-compatible belt within the ICON/iFIT family. Same Chinese factory frame design."
+    },
+    {
+      "component_type": "motor_controller",
+      "part_description": "MC-2100 Treadmill Motor Control Board — most common treadmill controller",
+      "fits_brands": ["NordicTrack", "ProForm", "Freemotion", "HealthRider", "Reebok", "Image"],
+      "fits_models": ["Freemotion 750, 760, 850", "ProForm 505 CST, 905 CST, 11.5 Competitor, 1500 RT, 980 CS, Power 990, Power 995, Power ZT8", "NordicTrack various models"],
+      "source": "Treadmill Doctor, Amazon, Treadmill Wizard",
+      "price_range": "$60-120",
+      "notes": "The MC-2100 is THE most common treadmill controller. Direct replacement for MC2100, MC1705DLS, MC1618DLS, MC1648DLS variants. CRITICAL: Different models use different controller programs — verify your specific revision (Rev B, Rev D, etc). The Treadmill Doctor upgraded version is recommended over cheap clones."
+    },
+    {
+      "component_type": "treadmill_lubricant",
+      "part_description": "100% Silicone Treadmill Belt Lubricant",
+      "fits_brands": ["ALL BRANDS"],
+      "fits_models": ["All treadmills with standard belt/deck systems"],
+      "source": "Amazon, Treadmill Doctor, Sportsmith, Walmart, Target",
+      "price_range": "$8-20",
+      "notes": "Truly universal. 100% silicone lubricant works on virtually all brands: NordicTrack, ProForm, Sole, Horizon, LifeSpan, Nautilus, Schwinn, Woodway, Life Fitness, etc. Apply every 3-6 months or per manufacturer recommendation. EXCEPTION: Do NOT use on Horizon infinity belts or waxed decks. Brands: Impresa, Spot On, Essential Values, IPO all work fine."
+    },
+    {
+      "component_type": "exercise_bike_pedals",
+      "part_description": "9/16-inch thread pedals — universal standard for adult exercise bikes",
+      "fits_brands": ["Peloton", "NordicTrack", "Schwinn", "Sunny Health", "YOSUDA", "JOROTO", "Echelon", "Most adult exercise bikes"],
+      "fits_models": ["Peloton Bike, Bike+", "Most indoor cycling bikes", "Most upright and recumbent bikes"],
+      "source": "Amazon, Sportsmith, Krislynn",
+      "price_range": "$15-40",
+      "notes": "9/16-inch is the standard thread for 99% of adult exercise bikes. Works with clip-in (SPD, Delta/Look) or flat pedals with straps. EXCEPTION: Some older or very cheap bikes use 1/2-inch threads — always measure before ordering. Peloton uses standard 9/16\" despite marketing as proprietary."
+    },
+    {
+      "component_type": "spin_bike_brake_pad",
+      "part_description": "Felt resistance brake pads for friction-based spin bikes",
+      "fits_brands": ["Schwinn", "Star Trac", "Lemond", "Keiser", "Various commercial spin bikes"],
+      "fits_models": ["Schwinn IC Pro, IC Elite, JonnyG Pro, Elite Bike", "Star Trac spin bikes", "Various models"],
+      "source": "Krislynn Cycle and Fitness, Sportsmith, Amazon",
+      "price_range": "$10-30",
+      "notes": "Many spin bikes use similar felt brake pads, but attachment methods differ. Schwinn pads can work on some Star Trac and Lemond models. Krislynn is the expert source — call them with your model for exact cross-reference. Pads can be 'restored' by roughing the surface with sandpaper."
+    },
+    {
+      "component_type": "treadmill_roller_bearings",
+      "part_description": "Standard deep groove ball bearings (6203, 6204, 6205 series)",
+      "fits_brands": ["Multiple brands using standard bearing sizes"],
+      "fits_models": ["Many treadmill front and rear rollers"],
+      "source": "Amazon, Bearing suppliers, Treadmill Doctor",
+      "price_range": "$5-15 per bearing",
+      "notes": "Treadmill rollers use standard industrial bearings: 6203 (17mm ID x 40mm OD), 6204 (20mm ID x 47mm OD), 6205 (25mm ID x 52mm OD). These are NOT brand-specific — any quality bearing manufacturer (SKF, NTN, FAG) makes drop-in replacements. Measure your existing bearing or check the number stamped on it. Get 2RS (sealed) type for treadmill use."
+    },
+    {
+      "component_type": "poly_v_drive_belt",
+      "part_description": "J-section Poly-V ribbed drive belts — standard treadmill motor belts",
+      "fits_brands": ["NordicTrack", "ProForm", "Bowflex", "Precor", "Sole", "Life Fitness", "Weslo", "Many others"],
+      "fits_models": ["Cross-brand based on belt code"],
+      "source": "Belt Palace, Treadmill Doctor, Amazon",
+      "price_range": "$8-25",
+      "notes": "Poly-V 'J' section belts (3/32\" rib width) are standard across many treadmill brands. Read the code on your existing belt (e.g., 8PJ431, 8PJ497, 8PJ508). '8' = number of ribs, 'PJ' = J section, '431' = length in mm. If your belt matches the code, it fits regardless of brand. Belt Palace specializes in these."
+    },
+    {
+      "component_type": "console_battery",
+      "part_description": "CR2032 3V lithium coin cell — console memory backup battery",
+      "fits_brands": ["Multiple brands"],
+      "fits_models": ["Many treadmill and bike consoles"],
+      "source": "Amazon, Walmart, any electronics retailer",
+      "price_range": "$1-5",
+      "notes": "Standard CR2032 batteries are used in many fitness equipment consoles for memory backup. IMPORTANT: The battery itself is universal, but the CONNECTOR may differ (Molex vs JST, different pin pitches). Check connector type and polarity before ordering wired versions. Many consoles use plain coin cell holders where any CR2032 drops in."
+    },
+    {
+      "component_type": "johnson_health_tech_parts",
+      "part_description": "Cross-compatible motors and components within Johnson Health Tech family",
+      "fits_brands": ["Matrix", "Horizon", "Vision", "AFG", "Livestrong", "Tempo"],
+      "fits_models": ["Various models across Johnson Health Tech brands"],
+      "source": "Johnson Fitness Parts, Hydra Fitness Exchange",
+      "price_range": "Varies",
+      "notes": "Johnson Health Tech manufactures Matrix, Horizon, Vision, AFG, Livestrong, and Tempo brands. Many components (motors, resistance motors, leveling feet, hardware) are shared across these brands. Part numbers often work cross-brand within the JHT family. The official Johnson parts site (parts.johnsonfitness.com) covers all brands."
+    },
+    {
+      "component_type": "icon_ifit_family_parts",
+      "part_description": "Cross-compatible mechanical parts within iFIT/ICON family",
+      "fits_brands": ["NordicTrack", "ProForm", "Freemotion", "Weider", "Weslo", "Gold's Gym", "HealthRider", "Image", "Epic"],
+      "fits_models": ["Various models across iFIT/ICON brands"],
+      "source": "ICON Service, Treadmill Doctor, Hydra Fitness Parts",
+      "price_range": "Varies",
+      "notes": "iFIT (formerly ICON Health & Fitness) manufactures all these brands. Mechanical parts (belts, rollers, motors, hardware, decals, safety keys) are frequently shared across brands. The same model frame is often sold under different brand names. EXCEPTION: Consoles/displays are NOT cross-compatible due to firmware differences and iFIT subscription locking."
+    },
+    {
+      "component_type": "seat_post",
+      "part_description": "Exercise bike seat posts — common diameters across brands",
+      "fits_brands": ["Many home exercise bikes"],
+      "fits_models": ["Various upright and recumbent bikes"],
+      "source": "Amazon, Sportsmith",
+      "price_range": "$15-35",
+      "notes": "Common diameters: 25.4mm (1 inch), 27.2mm (most common standard), 28.6mm. Measure your existing seat post diameter precisely — even 0.2mm matters. Shim adapters are available (e.g., 25.4mm to 27.2mm). Exercise bikes may not follow road/mountain bike standards, so always measure rather than assume."
+    }
+  ],
+
+  "proprietary_warnings": [
+    {
+      "brand": "NordicTrack / ProForm / Freemotion / Weider / Weslo (iFIT)",
+      "component": "Console / Display (Touchscreen Tablet)",
+      "why_proprietary": "iFIT-locked Android tablets with custom firmware. Console enforces iFIT activation at startup. A class action lawsuit was filed after a software update bricked many machines. Cannot replace with generic tablet. Firmware ties console to specific machine model and iFIT subscription status.",
+      "workaround": "Buy used console for SAME MODEL on eBay. Some models have a third-party tool called NordicUnchained (XDA Forums) that restores Privileged Mode. iFIT settlement may provide free replacement console if device failed by May 6, 2025. For basic use: some models can be factory reset to work without iFIT subscription in limited 'manual mode'."
+    },
+    {
+      "brand": "Peloton",
+      "component": "Touchscreen Display",
+      "why_proprietary": "Custom Android tablet bonded to the bike/tread/row frame. Proprietary connector and mounting system. Subscription required for full content access (classes, metrics tracking). Bike+ sensor board cannot be field-replaced — Peloton says it must be done by their technicians.",
+      "workaround": "Peloton sells official replacement screens at onepeloton.com/shop/replacement-parts. Used screens available on eBay — must match your exact model (Bike vs Bike+). Pedals ARE standard 9/16\" despite appearances — third-party pedals work fine. For content without Peloton screen: use Peloton app on any tablet ($13/mo)."
+    },
+    {
+      "brand": "Technogym",
+      "component": "Unity Console (all versions: Unity, Unity 2.0, Unity 3.0)",
+      "why_proprietary": "Proprietary Android-based touchscreen console. Very hard to find as replacement parts. Warranty explicitly voids coverage if unauthorized parts or accessories are used. SE4/Symbio screens are optically bonded in clean room — cannot be field-replaced. Service must be authorized by Technogym.",
+      "workaround": "Order through official Technogym service (800-804-0952). Used Unity consoles sometimes available through specialized resellers like UK Gym Equipment or Fitness Superstore. GymPart.com may have some console parts. For commercial facilities: budget for Technogym service contract."
+    },
+    {
+      "brand": "Life Fitness",
+      "component": "Discover SE4 / Symbio Console",
+      "why_proprietary": "The SE4 and Symbio console main touchscreen display cannot be replaced because the cover seal is optically bonded and the process is performed in a clean room environment. Older Discover SE and SE3 consoles have replaceable touchscreen kits.",
+      "workaround": "For SE and SE3 models: touchscreen replacement kits are available from GymPart.com and Atlanta Fitness Repair. For SE4/Symbio: must go through Life Fitness service (800-351-3737). Console swaps between SE3 and SE4 are NOT compatible. Used consoles available on eBay for older generations."
+    },
+    {
+      "brand": "Echelon",
+      "component": "Smart Display / Console",
+      "why_proprietary": "July firmware update implemented server-side authentication handshake at boot. Without internet connection AND active subscription ($40/mo or $400/yr), resistance controls, console metrics, and connected features are disabled — effectively bricking the machine. Third-party apps (QZ, SyncSpin) blocked by firmware. DMCA prevents legal release of workarounds.",
+      "workaround": "Very limited options. Must maintain Echelon subscription for full functionality. A jailbreak exists but cannot be legally distributed due to DMCA Section 1201. Without subscription, machine operates in extremely limited mode. Consider this a subscription-dependent product, not a standalone purchase."
+    },
+    {
+      "brand": "Hydrow",
+      "component": "Touchscreen / Electromagnetic Resistance System",
+      "why_proprietary": "Proprietary electromagnetic drag resistance system with touchscreen console. Without active Hydrow membership, device operates only in 'Just Row' mode — basic metrics display, no stats recording, no content. Screen, monitor arm, motors, and electronic components are all proprietary Hydrow parts.",
+      "workaround": "Order replacement parts through Hydrow official (833-499-3769). 12-month warranty on components. 'Just Row' mode does provide basic functionality without subscription, unlike Echelon which essentially bricks. Used Hydrow screens on eBay are rare."
+    },
+    {
+      "brand": "Keiser",
+      "component": "Magnetic Resistance System / Calibration",
+      "why_proprietary": "Eddy current magnetic resistance system with two opposing magnets over flywheel. No wear parts in resistance mechanism (magnets never touch flywheel). Calibration requires Keiser-specific Red Calibration Tool (PN 555089) — not available aftermarket.",
+      "workaround": "The resistance system itself rarely fails since no parts touch. Main wear items are bearings, brake pads (on older models), and cables — these CAN be sourced aftermarket from Krislynn or Sportsmith. For calibration: must either purchase the calibration tool from Keiser or have a Keiser-certified tech do it. Contact Keiser at 800-888-7009."
+    },
+    {
+      "brand": "Peloton",
+      "component": "Bike+ Sensor Board",
+      "why_proprietary": "The Bike+ sensor assembly near the brake cannot be field-replaced. Peloton will not sell the replacement sensor board as a standalone part. Must be installed by Peloton service technician.",
+      "workaround": "Contact Peloton support (866-679-9129) for service appointment. If out of warranty, Peloton charges for the technician visit. PeloSmith carries some Peloton-compatible parts for other components."
+    },
+    {
+      "brand": "Concept2",
+      "component": "PM5 Performance Monitor",
+      "why_proprietary": "The PM5 monitor is Concept2-specific. While the rower mechanism is simple and serviceable, the PM5 uses proprietary communication protocols with the flywheel sensor. Not interchangeable with third-party monitors.",
+      "workaround": "PM5 replacement monitors available direct from Concept2 (shop.concept2.com, 800-245-5676). Older PM3/PM4 monitors can sometimes be upgraded to PM5. The PM5 is reliable and rarely fails — main issue is usually the flywheel sensor cable, which IS replaceable."
+    },
+    {
+      "brand": "WaterRower",
+      "component": "S4 Performance Monitor",
+      "why_proprietary": "The S4 monitor is WaterRower-specific and communicates with a proprietary paddle sensor system inside the water tank. Third-party monitors will not work with WaterRower's resistance measurement.",
+      "workaround": "S4 replacements available from WaterRower service (800-852-2210, waterrowerservice.com). The mechanical components (tank, seat, rail, handle) are all serviceable with standard parts and tools."
+    },
+    {
+      "brand": "Woodway",
+      "component": "Slat Belt System",
+      "why_proprietary": "Woodway's signature curved slat belt system is completely proprietary. Individual slats, bearings, and the belt assembly must be sourced from Woodway. No aftermarket alternatives exist for the slat belt.",
+      "workaround": "All slat belt parts must come from Woodway directly (800-966-3929). The upside: slat belts last 150,000+ miles (vs 2,000-5,000 for traditional belts), so replacement is rare. Budget $3,000-5,000 if full slat belt replacement is ever needed."
+    }
+  ]
+}
