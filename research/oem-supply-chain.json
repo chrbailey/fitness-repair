@@ -1,0 +1,478 @@
+{
+  "metadata": {
+    "title": "Fitness Equipment OEM Supply Chain Map",
+    "purpose": "Map Chinese/Taiwanese OEM factories and shared components behind US fitness equipment brands for repair cross-referencing",
+    "last_updated": "2026-03-21",
+    "data_quality_note": "Compiled from Alibaba profiles, manufacturer websites, industry publications, repair parts retailers, teardown data, and supply chain reporting. Some OEM relationships are not publicly disclosed; entries marked 'inferred' are based on part compatibility evidence rather than confirmed factory sourcing."
+  },
+
+  "factories": [
+    {
+      "name": "Shuhua Sports Co., Ltd (SHUA)",
+      "location": "Jinjiang, Fujian Province",
+      "country": "China",
+      "founded": 1996,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "strength_equipment", "motors", "frames"],
+      "brands_supplied": ["Own brand (SHUA)", "Various North American budget brands", "European distributors"],
+      "alibaba_url": "https://shuhuafitness.en.alibaba.com/",
+      "also_listed": "https://shuhua.en.made-in-china.com/",
+      "annual_capacity": "400,000+ units/year (800-1000M CNY revenue)",
+      "employees": 1000,
+      "factory_area_sqft": 538000,
+      "certifications": ["ISO9001"],
+      "notes": "One of the largest fitness equipment OEMs globally. Foreign investment company. Integrated brand + OEM/ODM. Markets: North America, South America, Europe. Also sells under own SHUA brand domestically."
+    },
+    {
+      "name": "Impulse (Qingdao) Health Tech Co., Ltd",
+      "location": "Qingdao, Shandong Province",
+      "country": "China",
+      "founded": 1991,
+      "components_produced": ["complete_treadmills", "strength_equipment", "cardio_equipment", "commercial_gym_packages"],
+      "brands_supplied": ["Own brand (Impulse)", "OEM/ODM for US brands", "OEM/ODM for European brands", "OEM/ODM for Australian brands"],
+      "alibaba_url": "https://qingdaoimpulse.en.made-in-china.com/",
+      "annual_capacity": "Large-scale, exact figures undisclosed",
+      "notes": "Originally funded by Taiwan Impulse Co., Ltd. Evolved from pure OEM to independent brand. Major exporter to US, Germany, Spain, UK, Australia, Russia, Japan. One of China's most established fitness OEMs."
+    },
+    {
+      "name": "Dyaco International Inc.",
+      "location": "Changhua County (factories), Taipei (HQ)",
+      "country": "Taiwan",
+      "founded": 1990,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "recumbent_bikes"],
+      "brands_supplied": ["Sole Fitness", "Spirit Fitness", "XTERRA Fitness", "Fuel Fitness", "Esprit by Spirit"],
+      "brands_owned": ["Spirit Fitness", "XTERRA Fitness"],
+      "annual_capacity": "Major manufacturer, exact figures undisclosed",
+      "notes": "KEY OEM INSIGHT: Sole and Spirit were originally the SAME machines with different paint and labels (confirmed pre-2007 Sole E55 = Spirit XE350). Dyaco acquired Sole Fitness in 2020. Manufactures for Sole on ODM basis. Also assists with product development, design, patent filings. Parts are shared across Sole/Spirit/XTERRA product lines. Factory operational since 1984."
+    },
+    {
+      "name": "Johnson Health Tech Co., Ltd",
+      "location": "Taichung (HQ + primary factory), also factories in China, Vietnam, Japan",
+      "country": "Taiwan",
+      "founded": 1975,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "strength_equipment", "commercial_gym_equipment"],
+      "brands_owned": ["Matrix Fitness", "Horizon Fitness", "Vision Fitness", "Bowflex", "Schwinn", "Nautilus", "Synca", "Fujiiryoki"],
+      "brands_supplied": ["All owned brands above", "Previously OEM for other brands before building own brand portfolio"],
+      "annual_capacity": "$1.2B+ revenue (2023)",
+      "employees": "8000+",
+      "notes": "World's 3rd largest fitness equipment company. Evolved from OEM manufacturer to global brand owner. Acquired Bowflex/Schwinn/Nautilus brands from BowFlex Inc bankruptcy (March 2024). Operations in 40+ countries. Motor controllers and parts are shared across Horizon, Vision, AFG, and Matrix residential lines. Controller board part numbers (e.g., LPCA 032671-HF) work across AFG, Horizon, Merit, and Livestrong treadmills."
+    },
+    {
+      "name": "Rexon Industrial Corp.",
+      "location": "Taichung City",
+      "country": "Taiwan",
+      "founded": 1973,
+      "components_produced": ["complete_treadmills", "exercise_bikes", "frames", "cardio_machines"],
+      "brands_supplied": ["Peloton (sole treadmill supplier, largest bike supplier)", "Various unnamed American and European brands"],
+      "annual_capacity": "Large-scale, exact figures undisclosed",
+      "notes": "50+ years manufacturing experience. Originally power tools, entered fitness 1998. Evolved from OEM to ODM. Became Peloton's primary hardware manufacturer after Peloton exited in-house manufacturing (2022). Previously Peloton used Tonic Fitness (acquired 2019, later shut down). Rexon is now sole supplier of Peloton Tread and largest supplier of Peloton Bike."
+    },
+    {
+      "name": "iFIT Health & Fitness (formerly Icon Health & Fitness)",
+      "location": "Logan, Utah (HQ); manufacturing in China and USA",
+      "country": "USA / China",
+      "founded": 1977,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "rowers", "strength_equipment"],
+      "brands_owned": ["NordicTrack", "ProForm", "FreeMotion", "Weslo", "Weider", "HealthRider", "Image"],
+      "brands_licensed": ["Gold's Gym Home", "Reebok (fitness equipment)", "Jillian Michaels"],
+      "annual_capacity": "Millions of units across brands",
+      "notes": "CRITICAL FOR REPAIR: All Icon/iFIT brands share motor controllers (MC-2100, MC-60, MC-70 series), motor drive belts, front rollers, rear rollers, and many frame components. A motor drive belt for ProForm will often fit NordicTrack, Weslo, HealthRider, and Image. Incorporated 1994 by combining Weslo, ProForm, Legend Products, and Weider division. Acquired NordicTrack (1998, $12M from bankrupt CML Group) and FreeMotion (2001). Treadmills assembled in both China and USA."
+    },
+    {
+      "name": "Jiangsu Junxia Gym Equipment Co., Ltd",
+      "location": "Pizhou, Xuzhou, Jiangsu Province",
+      "country": "China",
+      "founded": 1973,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "strength_equipment"],
+      "brands_supplied": ["Adidas (fitness equipment)", "IMPEX", "ARGOS", "Dick's Sporting Goods (house brands)", "Sears (house brands)"],
+      "annual_capacity": "Large-scale, 150,000+ sqm factory, 800+ employees",
+      "alibaba_url": "https://junxia.goldsupplier.com/",
+      "notes": "OEM/ODM for major Western retail brands including Adidas fitness line. Named after Chinese Olympic champion Wang Junxia. Two production factories with 500+ sets of manufacturing equipment. R&D centers in Europe and America. ISO9001 certified."
+    },
+    {
+      "name": "Shandong DHZ Fitness Equipment Co., Ltd",
+      "location": "Dezhou, Shandong Province",
+      "country": "China",
+      "founded": 2002,
+      "components_produced": ["complete_treadmills", "commercial_gym_equipment", "strength_equipment", "cardio_equipment"],
+      "brands_supplied": ["Own brand (DHZ)", "OEM for 600+ dealers worldwide"],
+      "alibaba_url": "https://dhzfitness.en.alibaba.com/",
+      "annual_capacity": "Large-scale, self-described as largest fitness equipment manufacturer in China",
+      "notes": "Part of a massive fitness equipment manufacturing cluster in Dezhou/Ningjin County, Shandong. Nearby factories include Dezhou Xinzhen (est. 2008, 120,000 sqm), Dezhou Eagle, Dezhou Hengqing (est. 2013), and Shandong Tianzhan. This cluster effect means shared sub-component suppliers (motors, electronics, belts) serve multiple factories."
+    },
+    {
+      "name": "Zhejiang Ciapo Sporting Goods Co., Ltd",
+      "location": "Zhejiang Province",
+      "country": "China",
+      "components_produced": ["complete_treadmills", "spinning_bikes", "ellipticals", "walking_pads"],
+      "brands_supplied": ["Fortune 500 companies (unnamed)", "Various Amazon/white-label brands"],
+      "alibaba_url": "https://ciapotreadmill.en.alibaba.com/",
+      "annual_capacity": "Large-scale, #2 treadmill supplier on Alibaba",
+      "certifications": ["CB", "RoHS", "CE", "EN957"],
+      "notes": "Major Alibaba treadmill OEM. Offers full ODM (concept to product) and OEM services. Motors range from 1.25HP to 4.5HP DC and AC. Supplies many budget/Amazon branded treadmills. High probability source for multiple identical white-label products sold under different brand names."
+    },
+    {
+      "name": "Ningbo Kangruida Sports Equipment Co., Ltd",
+      "location": "Ningbo, Zhejiang Province",
+      "country": "China",
+      "founded": 2011,
+      "components_produced": ["complete_treadmills", "folding_treadmills", "walking_pads", "pet_treadmills"],
+      "brands_supplied": ["Various Amazon/white-label brands across 100+ countries"],
+      "alibaba_url": "https://kangruida.en.alibaba.com/",
+      "annual_capacity": "80+ treadmill models, 10,000 sqm factory",
+      "employees": 78,
+      "notes": "Specializes in budget folding treadmills and 2-in-1 models popular on Amazon. Has FCC filing (FCC ID 2A48O-AMA005726) confirming US market exports. CNC laser cutters and automated welding. Full customization: materials, branding, packaging, colors, sizes, logos. Very likely source for multiple identical budget treadmills sold under Goplus, ANCHEER, Redliro, and similar Amazon brands."
+    },
+    {
+      "name": "BH Group (Beistegui Hermanos S.A.) / BH Fitness",
+      "location": "Vitoria-Gasteiz, Spain (HQ); factories in Spain, Portugal, Mexico, China",
+      "country": "Spain / China",
+      "founded": 1909,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "strength_equipment"],
+      "brands_supplied": ["Own brand (BH Fitness)"],
+      "annual_capacity": "Present in 85 countries",
+      "notes": "European fitness equipment giant. Fitness division established 1960s. Manufactures in Spain, Portugal, Mexico, and China. Sells universal replacement controller boards for their treadmill line - one board replaces many different original boards, confirming shared electronics architecture within brand."
+    },
+    {
+      "name": "KingSmith Technology Co., Ltd (WalkingPad)",
+      "location": "Beijing (HQ); factories in Shandong and Xiamen",
+      "country": "China",
+      "founded": 2015,
+      "components_produced": ["walking_pads", "under_desk_treadmills", "folding_treadmills"],
+      "brands_supplied": ["WalkingPad", "Xiaomi ecosystem products"],
+      "annual_capacity": "$100M+ in sales, 300,000+ users in 57 countries",
+      "notes": "Member of Xiaomi Ecological Chain Enterprise. 212 patents including 48 invention patents. Dominates the under-desk treadmill category. Products often resold/rebranded through Xiaomi channels."
+    },
+    {
+      "name": "SportsArt Industrial Co., Ltd",
+      "location": "Tainan, Taiwan",
+      "country": "Taiwan",
+      "founded": 1977,
+      "components_produced": ["complete_treadmills", "ellipticals", "exercise_bikes", "green_energy_equipment"],
+      "brands_supplied": ["Own brand (SportsArt)", "OEM/ODM partners for green/rehab-focused equipment"],
+      "annual_capacity": "500,000+ sqft manufacturing, exports to 70+ countries",
+      "notes": "Specializes in green (energy-generating) fitness equipment. Acts as OEM/ODM partner helping clients build private label lines, especially for green or rehab-focused machines."
+    },
+    {
+      "name": "Strength Master Fitness Tech Co., Ltd",
+      "location": "Taiwan",
+      "country": "Taiwan",
+      "components_produced": ["complete_treadmills", "fitness_equipment"],
+      "brands_supplied": ["LifeSpan Fitness"],
+      "annual_capacity": "Undisclosed",
+      "notes": "Manufactures LifeSpan treadmills including models with Android-based consoles. Taiwan-based OEM."
+    },
+    {
+      "name": "Paradigm Health & Wellness Inc.",
+      "location": "City of Industry, California (HQ); manufacturing sourced from China/Taiwan",
+      "country": "USA (design) / China (manufacturing)",
+      "founded": 2007,
+      "components_produced": ["complete_treadmills", "exercise_bikes", "inversion_tables", "fitness_accessories"],
+      "brands_owned": ["Exerpeutic", "ProGear", "Fitness Reality", "Fitness Reality Kids"],
+      "annual_capacity": "Undisclosed",
+      "notes": "REPAIR RELEVANCE: Exerpeutic and ProGear are sister brands from the same parent company, meaning they likely share frames, motors, and controllers. Budget Amazon-focused brands. Products manufactured through OEM partners in Asia."
+    },
+    {
+      "name": "Guangzhou Core Max Fitness Equipment Co., Ltd",
+      "location": "Guangzhou, Guangdong Province",
+      "country": "China",
+      "components_produced": ["commercial_treadmills", "ellipticals", "LED_touch_screen_consoles"],
+      "brands_supplied": ["Various OEM clients"],
+      "alibaba_url": "https://gzaolite.en.alibaba.com/",
+      "annual_capacity": "Undisclosed",
+      "notes": "Guangdong-based manufacturer benefiting from Shenzhen/Dongguan electronics supply chain for console components."
+    },
+    {
+      "name": "Shandong Lanbo Fitness Equipment Co., Ltd",
+      "location": "Shandong Province",
+      "country": "China",
+      "components_produced": ["commercial_treadmills", "fitness_equipment"],
+      "brands_supplied": ["Various OEM clients"],
+      "alibaba_url": "https://lbfitness.en.alibaba.com/",
+      "annual_capacity": "Undisclosed",
+      "notes": "Part of the Shandong fitness equipment manufacturing cluster."
+    },
+    {
+      "name": "Yongkang Fitness Equipment Cluster",
+      "location": "Yongkang, Zhejiang Province (Hardware Capital of China)",
+      "country": "China",
+      "components_produced": ["complete_treadmills", "walking_pads", "budget_fitness_equipment"],
+      "brands_supplied": ["Multiple Amazon white-label brands"],
+      "notable_factories": [
+        "Yongkang Linghang Fitness Equipment Co., Ltd (20,000 PCS/year, exports to 80+ countries)",
+        "Yongkang Smart Industry & Trade Co., Ltd (OEM/ODM motorized treadmills)",
+        "Yongkang Medeky Fitness Co., Ltd"
+      ],
+      "notes": "Yongkang is known as the 'Hardware Capital City of China.' Multiple small-to-medium factories here produce budget treadmills for Amazon sellers. Very high probability of identical products being sold under different brand names from this cluster."
+    }
+  ],
+
+  "shared_components": [
+    {
+      "component_type": "Motor controller board (MC-2100 family)",
+      "description": "PWM motor controller combined with power board. Replaces older MC-60/MC-2000 + PB-12i power board combination. Variants include MC2100-WA, MC2100E, MC2100ELS, MC2100LT.",
+      "factory": "Icon Health & Fitness / iFIT (in-house design, manufactured in China)",
+      "brands_sharing": ["NordicTrack", "ProForm", "FreeMotion", "Weslo", "Weider", "HealthRider", "Image", "Reebok (licensed)", "Gold's Gym Home (licensed)", "Epic"],
+      "part_numbers_if_known": ["MC2100-WA (248187, 195883, 198023)", "MC1648DLS (399604, 386763)", "MC1618DLS (398063, 398057)", "MC1705DLS", "MC-60 (127847)", "MC-2000 (183552)"],
+      "replacement_compatibility": {
+        "MC2100": "Replaces MC1705DLS, MC1618DLS, MC1648DLS directly",
+        "MC2100_replaces": "Also replaces MC-60 + PB-12i power board combination",
+        "LED_equivalence": "MC-2100 LEDs equivalent to MC-60 indicators"
+      },
+      "repair_relevance": "THE most common failure part across all Icon/iFIT brands. One replacement MC-2100 board can fix treadmills across 8+ brand names. Widely available new and refurbished ($30-80). This single component insight can save repair shops from stocking brand-specific parts."
+    },
+    {
+      "component_type": "Motor controller board (Johnson Health Tech family)",
+      "description": "Lower control board motor controller for Johnson-manufactured treadmills",
+      "factory": "Johnson Health Tech (Taiwan/China factories)",
+      "brands_sharing": ["Horizon Fitness", "Vision Fitness", "AFG", "Merit", "Livestrong", "Matrix (residential)"],
+      "part_numbers_if_known": ["LPCA 032671-HF", "013701-AA"],
+      "repair_relevance": "Johnson controller boards work across Horizon, AFG, Merit, and Livestrong treadmills. After Bowflex/Schwinn/Nautilus acquisition (2024), expect parts consolidation with those brands too."
+    },
+    {
+      "component_type": "Motor controller board (Sole/Spirit/Dyaco family)",
+      "description": "Treadmill motor controller for Dyaco-manufactured equipment",
+      "factory": "Dyaco International (Taiwan)",
+      "brands_sharing": ["Sole Fitness", "Spirit Fitness", "XTERRA Fitness"],
+      "part_numbers_if_known": ["AE0016C", "AE0011-V1.1"],
+      "repair_relevance": "Sole and Spirit controller boards are interchangeable in many cases since both brands are manufactured by Dyaco. A Sole controller repair guide often applies to Spirit and vice versa."
+    },
+    {
+      "component_type": "Universal treadmill motor controller (aftermarket)",
+      "description": "Generic replacement motor control board compatible with most DC motor treadmills regardless of brand",
+      "factory": "Various Chinese electronics manufacturers (sold via anytreadmillparts.com and others)",
+      "brands_sharing": ["Universal - works with most DC motor treadmills"],
+      "part_numbers_if_known": ["TB63 (universal motor control set)"],
+      "repair_relevance": "Last-resort option when OEM controller is unavailable or too expensive. These universal boards can resurrect treadmills from any brand that uses a standard DC motor. Loses brand-specific features (iFIT, preset programs) but restores basic run/speed/incline functionality."
+    },
+    {
+      "component_type": "DC treadmill motor (home/residential)",
+      "description": "Permanent magnet DC motors, 90V-180V, 1.0-3.0 CHP, brushed type",
+      "factory": "Multiple: Dongguan Tewei Engines (Guangdong), Hsiang Neng (Taiwan), Shenzhen Maintex, various Zhejiang factories",
+      "brands_sharing": ["NordicTrack", "ProForm", "Weslo", "Sole", "Spirit", "Horizon", "Various budget brands"],
+      "common_specifications": {
+        "budget_home": "1.0-1.75 HP, 90V DC",
+        "mid_range_home": "2.0-2.5 CHP, 180V DC",
+        "premium_home": "3.0-3.5 CHP, 180V DC",
+        "commercial": "3.0-5.0 HP AC (different motor type entirely)"
+      },
+      "key_motor_manufacturers": [
+        {
+          "name": "Dongguan Tewei Engines Co., Ltd",
+          "location": "Dongkeng Town, Dongguan, Guangdong",
+          "range": "DC 1.0-4.0 HP home, AC 3.0-5.0 HP commercial",
+          "certifications": "3C, UL, RoHS, CE, ISO9001:2008"
+        },
+        {
+          "name": "Hsiang Neng DC Micro Motor Manufacturing Corp",
+          "location": "Taiwan",
+          "range": "DC 1-3 HP treadmill motors, 83mm and 101mm diameter",
+          "certifications": "CCC, ROHS, CE, UL"
+        },
+        {
+          "name": "Shenzhen Maintex Intelligent Control Co., Ltd",
+          "location": "Shenzhen, Guangdong",
+          "range": "Brushed DC and BLDC treadmill motors"
+        }
+      ],
+      "repair_relevance": "Motors with matching voltage (90V or 180V), HP rating, and physical dimensions are often interchangeable across brands. The motor mount pattern is NOT standardized however - each brand uses custom mounts. When replacing, match: (1) voltage, (2) HP/CHP, (3) physical diameter, (4) shaft dimensions, (5) mount bolt pattern. Motors from the same OEM supplier to different brands will have identical specs."
+    },
+    {
+      "component_type": "Motor drive belt",
+      "description": "Belt connecting motor to front roller, transmits drive power",
+      "factory": "Generic components, multiple Chinese belt manufacturers",
+      "brands_sharing": ["NordicTrack", "ProForm", "Weslo", "HealthRider", "Reebok", "Image", "Gold's Gym Home", "Lifestyler"],
+      "part_numbers_if_known": ["8PJ508 / 220769 (fits all Icon/iFIT brands listed)"],
+      "repair_relevance": "Motor drive belts are highly interchangeable within the Icon/iFIT family. Part #220769 fits NordicTrack, ProForm, Weslo, HealthRider, Reebok, Image, Gold's Gym, and Lifestyler treadmills. Always verify belt length and rib count but within a parent company's brands, these are nearly always the same part."
+    },
+    {
+      "component_type": "Walking/running belt",
+      "description": "Continuous belt surface the user walks/runs on",
+      "factory": "Habasit (Switzerland/global, premium), various Chinese manufacturers (Annilte, Xinbex)",
+      "brands_sharing": ["Brand-specific sizing, but standard dimensions exist"],
+      "standard_sizes": {
+        "budget_walking": "40-48 inches long x 13-16 inches wide",
+        "mid_range_home": "50-55 inches long x 18-20 inches wide",
+        "premium_home": "55-60 inches long x 20-22 inches wide",
+        "commercial": "60+ inches long x 22 inches wide"
+      },
+      "belt_types": {
+        "1_ply": "Home use, requires lubrication, thinner",
+        "2_ply": "Commercial or heavy home use, more durable"
+      },
+      "repair_relevance": "Walking belts are NOT universal - must match exact width and circumference. However, within a brand family (e.g., multiple NordicTrack models), belt sizes are often shared across model years. Measure the full circumference (wrap-around length including underside) and width to find replacements. Habasit is premium OEM supplier; Chinese alternatives available at lower cost."
+    },
+    {
+      "component_type": "Front/rear roller",
+      "description": "Metal rollers that the walking belt wraps around",
+      "factory": "Various, often manufactured by the treadmill assembler",
+      "brands_sharing": ["NordicTrack", "ProForm", "Weslo", "HealthRider", "Image"],
+      "part_numbers_if_known": ["162742 (front roller bolt, fits NordicTrack/ProForm/HealthRider/Image/Weslo)"],
+      "repair_relevance": "Rollers within the Icon/iFIT family share bolt patterns and sizes. A front roller bolt part #162742 fits across NordicTrack, ProForm, HealthRider, Image, and Weslo. Roller diameter and length determine belt tracking - when replacing, match these exactly."
+    },
+    {
+      "component_type": "Android tablet console (iFIT-locked)",
+      "description": "Touchscreen Android tablet integrated into treadmill console, running iFIT software. Models include Royal Wolf, Argon 1, Argon 2.",
+      "factory": "Icon Health & Fitness / iFIT (branded as MP10-ARGON and similar)",
+      "brands_sharing": ["NordicTrack", "ProForm", "FreeMotion", "Weider", "Matrix (iFIT-compatible models)"],
+      "repair_relevance": "CRITICAL REPAIR ISSUE: These consoles are software-locked to iFIT. A 2023 WiFi update bricked many consoles (class action settlement filed). Consoles have hidden ports (MicroSD, Ethernet, OTG, 2x UART) behind the case. Icon offers reprogramming cards via iconservice.com. Settlement covers replacement of Royal Wolf, Argon 1, Argon 2 tablets at no cost. For independent repair: factory reset possible via hidden button combo, but iFIT subscription lock remains. These are NOT standard Android tablets and cannot easily run other software."
+    },
+    {
+      "component_type": "Power cord",
+      "description": "3-conductor 14AWG power cord",
+      "factory": "Generic electrical component",
+      "brands_sharing": ["Sole", "Spirit", "XTERRA", "Bowflex", "Schwinn"],
+      "part_numbers_if_known": ["EL555-PC (fits Sole, Spirit, XTERRA)"],
+      "repair_relevance": "AC power cords are standard within manufacturer families. Dyaco brands (Sole/Spirit/XTERRA) share cords. Johnson brands (Bowflex/Schwinn) share cords. Often the same IEC connector - check amperage rating before substituting."
+    }
+  ],
+
+  "white_label_mapping": [
+    {
+      "base_product": "Icon/iFIT treadmill platform (multiple tiers)",
+      "factory": "Icon Health & Fitness / iFIT (Logan, Utah design; China assembly)",
+      "brands_selling_it": ["NordicTrack (premium tier)", "ProForm (mid tier)", "FreeMotion (commercial/premium)", "Weslo (budget tier)", "HealthRider (budget-mid tier)", "Image (discontinued, budget)", "Gold's Gym Home (licensed, budget-mid)", "Reebok (licensed, mid tier)", "Weider (budget)"],
+      "differences": "Motor HP varies by tier, console features differ (iFIT integration level), frame weight capacity varies, belt width differs. But core architecture, motor controllers (MC-2100 family), motor drive belts, rollers, and electronics are shared across ALL tiers.",
+      "repair_relevance": "THE most important white-label insight for repair. A repair technician who knows how to fix a NordicTrack treadmill can fix any Icon/iFIT brand treadmill. The MC-2100 controller board, motor drive belts, and most mechanical parts are interchangeable. Stock Icon parts and you cover 8+ brand names. ProForm and NordicTrack are the SAME machines with different trim levels."
+    },
+    {
+      "base_product": "Dyaco mid-range treadmill/elliptical platform",
+      "factory": "Dyaco International (Changhua, Taiwan)",
+      "brands_selling_it": ["Sole Fitness (US market)", "Spirit Fitness (global market)", "XTERRA Fitness (budget tier)", "Fuel Fitness", "Esprit by Spirit"],
+      "differences": "Pre-2007: Sole E55 = Spirit XE350 with different paint. Now somewhat more differentiated but same underlying platform. Sole positioned as premium, Spirit as mid-range, XTERRA as budget. Frame designs and motor specs diverge more on newer models but controller boards and many mechanical parts remain shared.",
+      "repair_relevance": "Parts from Spirit will often fit Sole treadmills and vice versa. The AE-series controller boards are shared. When Sole parts are expensive or backordered, try Spirit equivalents (or vice versa). Same failure patterns, same repair procedures."
+    },
+    {
+      "base_product": "Johnson Health Tech residential treadmill platform",
+      "factory": "Johnson Health Tech (Taichung, Taiwan; China and Vietnam factories)",
+      "brands_selling_it": ["Horizon Fitness (home market)", "Vision Fitness (specialty/home)", "AFG (previously)", "Matrix (residential line)", "Bowflex (post-2024 acquisition)", "Schwinn (post-2024 acquisition)", "Nautilus (post-2024 acquisition)", "Livestrong (discontinued)", "Merit (budget)"],
+      "differences": "Matrix is positioned as commercial/premium, Horizon as home, Vision as specialty. Motor controllers are shared across Horizon/AFG/Merit/Livestrong lines. Post-Bowflex acquisition, expect increasing parts consolidation.",
+      "repair_relevance": "Johnson controller boards (LPCA series) fit across Horizon, AFG, Merit, and Livestrong. Drive motors with flywheels are shared (P/N 1000112728 fits Livestrong and AFG 3.0AT). After the 2024 Bowflex acquisition, Johnson is now the largest brand portfolio in fitness - parts sharing will likely increase."
+    },
+    {
+      "base_product": "Budget folding treadmill, 2.25 HP, 40x16 inch belt, 2-in-1 design",
+      "factory": "Likely Zhejiang factories (Ciapo, Kangruida, or Yongkang cluster)",
+      "brands_selling_it": ["Goplus SuperFit", "ANCHEER 2-in-1", "Redliro", "Various other Amazon brands"],
+      "differences": "Cosmetic only - Goplus and ANCHEER confirmed to have same 40x16 inch belt, same weight, same 2-in-1 feature, same top speed, same 2.25HP motor. Only monitor/display differs.",
+      "repair_relevance": "These budget Amazon treadmills are almost certainly the same machine from the same factory with different logos. Parts are interchangeable. If one brand is out of stock, order from the other. Same failure modes: motor brush wear, controller failure, belt wear patterns are identical."
+    },
+    {
+      "base_product": "Budget walking pad / under-desk treadmill",
+      "factory": "Multiple Zhejiang/Ningbo factories, KingSmith (for WalkingPad brand)",
+      "brands_selling_it": ["WalkingPad (KingSmith/Xiaomi)", "Goplus (walking pad models)", "UREVO", "Sperax", "UMAY", "Various Alibaba-sourced Amazon brands"],
+      "differences": "WalkingPad is the premium/original design (212 patents). Many competitors are visual clones from other Zhejiang factories. Internal components may differ more than folding treadmills due to KingSmith's proprietary tech.",
+      "repair_relevance": "Walking pads from unknown brands are likely Ciapo or Kangruida OEM products. Parts for one brand will usually fit another if physical dimensions match. WalkingPad/KingSmith products may have more proprietary components due to patent protection."
+    },
+    {
+      "base_product": "Exerpeutic / ProGear budget fitness equipment line",
+      "factory": "OEM partners in China/Taiwan (sourced by Paradigm Health & Wellness)",
+      "brands_selling_it": ["Exerpeutic", "ProGear", "Fitness Reality"],
+      "differences": "Different brand positioning but same parent company (Paradigm Health & Wellness, City of Industry, CA). Exerpeutic is the treadmill/cardio brand, ProGear is budget tier, Fitness Reality is the broader home gym brand.",
+      "repair_relevance": "All three brands share the same parent company and likely the same OEM factories. Parts cross-compatibility is highly probable. Check Paradigm's website for replacement parts that may fit across brand lines."
+    },
+    {
+      "base_product": "Peloton Tread / Bike hardware",
+      "factory": "Rexon Industrial Corp. (Taichung, Taiwan)",
+      "brands_selling_it": ["Peloton (exclusively)"],
+      "differences": "Peloton is unique in that Rexon manufactures exclusively for them. However, Rexon also makes bikes/treadmills for other unnamed brands, so the underlying manufacturing expertise and some sub-components (bearings, rollers, frame tubing) may be shared.",
+      "repair_relevance": "Peloton parts are proprietary and expensive through official channels. Since Rexon is the sole manufacturer, no white-label equivalents exist for most Peloton components. However, generic components like bearings, belts, and pedals can be sourced from standard industrial suppliers if specifications are matched."
+    },
+    {
+      "base_product": "Junxia OEM treadmill platform for retail brands",
+      "factory": "Jiangsu Junxia Gym Equipment Co., Ltd (Pizhou, Jiangsu)",
+      "brands_selling_it": ["Adidas (home fitness line)", "IMPEX fitness products", "ARGOS house brands", "Dick's Sporting Goods house brands", "Sears house brands"],
+      "differences": "Same factory, customized branding, packaging, and minor feature differentiation per retail client.",
+      "repair_relevance": "If you own an Adidas-branded home treadmill, it was likely made by Junxia. Parts may be available directly from Junxia at lower cost than through the retail brand. Same applies to Dick's and Sears house-brand treadmills."
+    }
+  ],
+
+  "manufacturing_clusters": {
+    "description": "Geographic clusters where multiple fitness equipment factories share sub-component suppliers, creating de facto parts compatibility",
+    "clusters": [
+      {
+        "region": "Dezhou/Ningjin, Shandong Province",
+        "specialization": "Commercial and home gym equipment",
+        "major_factories": ["DHZ Fitness", "Dezhou Xinzhen", "Dezhou Eagle", "Dezhou Hengqing", "Shandong Tianzhan"],
+        "shared_suppliers": "Motors, electronics, metal fabrication, belts sourced from common regional suppliers"
+      },
+      {
+        "region": "Yongkang, Zhejiang Province",
+        "specialization": "Budget home treadmills, walking pads, Amazon-seller products",
+        "major_factories": ["Yongkang Linghang", "Yongkang Smart Industry", "Yongkang Medeky"],
+        "shared_suppliers": "Known as Hardware Capital of China - extensive shared supply chain for motors, electronics, metal stamping"
+      },
+      {
+        "region": "Ningbo/wider Zhejiang",
+        "specialization": "Budget folding treadmills, 2-in-1 models, OEM/white-label",
+        "major_factories": ["Zhejiang Ciapo", "Ningbo Kangruida"],
+        "shared_suppliers": "Regional electronics and motor suppliers"
+      },
+      {
+        "region": "Dongguan/Shenzhen/Guangzhou, Guangdong Province",
+        "specialization": "Electronics-heavy fitness equipment (smart consoles, controllers), motors",
+        "major_factories": ["Core Max Fitness", "Dongguan Tewei (motors)"],
+        "shared_suppliers": "Leverages Shenzhen electronics ecosystem for smart displays, Bluetooth modules, controller boards"
+      },
+      {
+        "region": "Qingdao, Shandong Province",
+        "specialization": "Commercial fitness equipment, international OEM",
+        "major_factories": ["Impulse Health Tech"],
+        "shared_suppliers": "Port city advantages for export logistics"
+      },
+      {
+        "region": "Jinjiang, Fujian Province",
+        "specialization": "Large-scale complete equipment manufacturing",
+        "major_factories": ["Shuhua Sports (SHUA)"],
+        "shared_suppliers": "Regional sporting goods manufacturing ecosystem"
+      },
+      {
+        "region": "Taichung, Taiwan",
+        "specialization": "Premium OEM/ODM, branded equipment",
+        "major_factories": ["Johnson Health Tech", "Rexon Industrial"],
+        "shared_suppliers": "Precision manufacturing, higher quality motor and electronics suppliers"
+      },
+      {
+        "region": "Changhua/Tainan, Taiwan",
+        "specialization": "Mid-premium OEM, branded equipment",
+        "major_factories": ["Dyaco International", "SportsArt Industrial"],
+        "shared_suppliers": "Taiwan precision manufacturing cluster"
+      }
+    ]
+  },
+
+  "repair_cross_reference_guide": {
+    "description": "Quick reference for repair technicians: when you see brand X, check brand Y for compatible parts",
+    "brand_groups": [
+      {
+        "group_name": "Icon/iFIT Family",
+        "brands": ["NordicTrack", "ProForm", "FreeMotion", "Weslo", "Weider", "HealthRider", "Image", "Epic", "Gold's Gym Home", "Reebok Fitness", "Lifestyler"],
+        "shared_parts": ["MC-2100 series controllers", "Motor drive belts (8PJ508)", "Front/rear rollers", "Most DC motors within same HP tier", "Incline motors", "Console wiring harnesses"],
+        "caution": "iFIT-locked consoles are NOT interchangeable with non-iFIT models. Android tablet consoles (Argon series) are brand-locked."
+      },
+      {
+        "group_name": "Dyaco Family",
+        "brands": ["Sole Fitness", "Spirit Fitness", "XTERRA Fitness", "Fuel Fitness", "Esprit by Spirit"],
+        "shared_parts": ["AE-series controller boards", "Power cords", "Many mechanical components", "Pre-2007 models nearly identical"],
+        "caution": "Newer models have diverged more. Always verify part numbers."
+      },
+      {
+        "group_name": "Johnson Family",
+        "brands": ["Horizon Fitness", "Vision Fitness", "Matrix (residential)", "AFG", "Merit", "Livestrong", "Bowflex (post-2024)", "Schwinn (post-2024)", "Nautilus (post-2024)"],
+        "shared_parts": ["LPCA-series controller boards", "DC drive motors with flywheels", "Power cords"],
+        "caution": "Matrix commercial line uses different (heavier duty) components. Bowflex/Schwinn/Nautilus parts sharing still emerging post-acquisition."
+      },
+      {
+        "group_name": "Amazon Budget Brands",
+        "brands": ["Goplus", "ANCHEER", "Redliro", "UREVO", "Sperax", "MaxKare", "UMAY"],
+        "shared_parts": ["Likely identical frames, motors, controllers from same factory", "2.25HP DC motors", "40x16 inch belts", "Generic controller boards"],
+        "caution": "No official parts channels. Match physical dimensions when cross-referencing. Universal controller board (TB63) is backup option."
+      },
+      {
+        "group_name": "Paradigm Family",
+        "brands": ["Exerpeutic", "ProGear", "Fitness Reality"],
+        "shared_parts": ["Likely shared frames and motors from same OEM", "Same parent company (Paradigm Health & Wellness)"],
+        "caution": "Limited independent verification of parts cross-compatibility."
+      }
+    ],
+    "universal_parts_tip": "When brand-specific parts are unavailable: (1) Try sister brands from same parent company. (2) Match motor voltage, HP, and physical dimensions for motor swaps. (3) Universal controller board (TB63) restores basic functionality on any DC motor treadmill. (4) Walking belts must match exact width and circumference - no shortcuts. (5) Motor drive belts: match rib count and length."
+  }
+}

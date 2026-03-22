@@ -1,0 +1,567 @@
+{
+  "metadata": {
+    "compiled": "2026-03-21",
+    "description": "Corporate ownership chains and acquisition history of the fitness equipment industry, current as of early 2026.",
+    "note": "The fitness equipment industry underwent massive consolidation during and after COVID-19. This document captures the current ownership picture."
+  },
+  "ownership_groups": [
+    {
+      "parent": "Johnson Health Tech Co., Ltd.",
+      "parent_hq": "Taichung, Taiwan",
+      "parent_status": "active",
+      "public": true,
+      "ticker": "1736.TW",
+      "exchange": "Taiwan Stock Exchange (TWSE)",
+      "controlling_family": "Lo family (Peter Lo, Cindy Lo, Jean Hung — founded 1975)",
+      "notes": "Largest fitness equipment conglomerate by brand count. North American subsidiaries merged in 2025 into Johnson Health Tech North America Corp. (Cottage Grove, WI). Chris Clawson is NA president/CEO. Acquired BowFlex brands out of bankruptcy in April 2024 for $37.5M, adding to its already substantial portfolio.",
+      "subsidiaries": [
+        {
+          "name": "Matrix Fitness",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Commercial/institutional segment. One of the world's fastest-growing commercial equipment brands."
+        },
+        {
+          "name": "Horizon Fitness",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Consumer/home fitness segment. Mid-price positioning."
+        },
+        {
+          "name": "Vision Fitness",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Premium home and light commercial segment."
+        },
+        {
+          "name": "BowFlex",
+          "acquired_date": "2024-04-22",
+          "relationship": "acquired_brand",
+          "notes": "Purchased from BowFlex Inc. (formerly Nautilus Inc.) bankruptcy for $37.5M. Court approved sale April 15, 2024; closed April 22, 2024. Strong brand recognition in US home fitness — dumbbells, home gyms, bikes."
+        },
+        {
+          "name": "Schwinn Fitness (consumer)",
+          "acquired_date": "2024-04-22",
+          "relationship": "acquired_brand",
+          "notes": "Acquired as part of BowFlex bankruptcy purchase. Consumer bikes and ellipticals. Note: Schwinn COMMERCIAL brand is owned separately by Core Health & Fitness."
+        },
+        {
+          "name": "JRNY",
+          "acquired_date": "2024-04-22",
+          "relationship": "acquired_brand",
+          "notes": "Adaptive digital fitness platform acquired alongside BowFlex brands."
+        }
+      ]
+    },
+    {
+      "parent": "iFIT Inc.",
+      "parent_hq": "Logan, Utah",
+      "parent_status": "active",
+      "public": false,
+      "notes": "Formerly ICON Health & Fitness, rebranded to iFIT Health & Fitness in 2021. Did NOT file for bankruptcy despite financial difficulties in 2022 — instead raised $355M from L Catterton (debt + equity) to restructure out of court. Withdrew planned $650M IPO. Settled $300M Pamplona Capital lawsuit. Multiple class action settlements in 2024-2025 over treadmill horsepower claims and software updates. Named one of 'Most Innovative Fitness & Wellness Companies' by Athletech News in 2025. Active partnership with EGYM announced Feb 2026.",
+      "subsidiaries": [
+        {
+          "name": "NordicTrack",
+          "acquired_date": "1998",
+          "relationship": "wholly_owned_brand",
+          "notes": "Flagship consumer brand. Treadmills, bikes, ellipticals. Sold at Costco, Dick's, and direct."
+        },
+        {
+          "name": "ProForm",
+          "acquired_date": "legacy brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Value-oriented home fitness equipment."
+        },
+        {
+          "name": "Freemotion",
+          "acquired_date": "legacy brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Commercial/institutional segment. Cable-based strength training pioneer. Incline Trainers, connected bikes."
+        },
+        {
+          "name": "iFIT (digital platform)",
+          "acquired_date": "in-house",
+          "relationship": "wholly_owned_brand",
+          "notes": "Interactive training platform with AI-driven coaching. Streams to NordicTrack and ProForm machines."
+        },
+        {
+          "name": "Gold's Gym (home equipment license)",
+          "acquired_date": "license agreement",
+          "relationship": "licensed_brand",
+          "notes": "iFIT designs, manufactures, and sells home fitness equipment under the Gold's Gym brand name via licensing. Does NOT own the Gold's Gym brand itself."
+        },
+        {
+          "name": "Weider",
+          "acquired_date": "legacy brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Budget home fitness equipment and weight benches."
+        },
+        {
+          "name": "HealthRider",
+          "acquired_date": "legacy brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Legacy home fitness brand."
+        },
+        {
+          "name": "Weslo",
+          "acquired_date": "legacy brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Entry-level treadmills."
+        }
+      ]
+    },
+    {
+      "parent": "KPS Capital Partners",
+      "parent_hq": "New York, New York",
+      "parent_status": "active",
+      "public": false,
+      "notes": "Private equity firm. Acquired Brunswick Corporation's fitness business for ~$490M in 2019. KPS manages the KPS Special Situations Funds with approximately $19.5B AUM (as of Sept 2025). Life Fitness / Hammer Strength HQ is in Rosemont, Illinois.",
+      "subsidiaries": [
+        {
+          "name": "Life Fitness",
+          "acquired_date": "2019-06",
+          "relationship": "portfolio_company_brand",
+          "notes": "Flagship commercial fitness brand. Cardio and strength equipment in 160+ countries. Formerly owned by Brunswick Corporation."
+        },
+        {
+          "name": "Hammer Strength",
+          "acquired_date": "2019-06",
+          "relationship": "portfolio_company_brand",
+          "notes": "Premium commercial plate-loaded and selectorized strength equipment. Standard in pro sports and university weight rooms."
+        },
+        {
+          "name": "Cybex",
+          "acquired_date": "2019-06",
+          "relationship": "portfolio_company_brand",
+          "notes": "Commercial cardio and strength equipment. Originally acquired by Brunswick for $195M in 2016, then passed to KPS in the 2019 deal."
+        },
+        {
+          "name": "Indoor Cycling Group (ICG)",
+          "acquired_date": "2019-06",
+          "relationship": "portfolio_company_brand",
+          "notes": "Commercial indoor cycling bikes and group cycling solutions."
+        },
+        {
+          "name": "SCIFIT",
+          "acquired_date": "2019-06",
+          "relationship": "portfolio_company_brand",
+          "notes": "Medical and rehabilitation fitness equipment."
+        },
+        {
+          "name": "Brunswick Billiards",
+          "acquired_date": "2019-06",
+          "relationship": "portfolio_company_brand",
+          "notes": "Billiards/pool tables. Included in the Brunswick fitness business acquisition."
+        }
+      ]
+    },
+    {
+      "parent": "Peloton Interactive, Inc.",
+      "parent_hq": "New York, New York",
+      "parent_status": "active",
+      "public": true,
+      "ticker": "PTON",
+      "exchange": "NASDAQ",
+      "notes": "Stock price ~$4.13 (Feb 2026), market cap ~$1.76B. Down 60% since Oct 2025 AI hardware launch. Multiple rounds of layoffs: 6% cut Aug 2025, 11% cut Jan 2026 (primarily engineering). Acquired Breathwrk wellness app (Oct 2025). Launched unified Commercial Business Unit combining Peloton and Precor in 2025. New commercial bikes/treads planned for late 2026. Q1 FY2026: net income $14M, adj EBITDA $118M.",
+      "subsidiaries": [
+        {
+          "name": "Precor",
+          "acquired_date": "2021-04",
+          "relationship": "wholly_owned_subsidiary",
+          "notes": "Acquired from Amer Sports for $420M cash (announced Dec 2020, closed April 2021). Peloton explored selling Precor but decided to keep it. Now powers Peloton's commercial strategy with distribution in 60+ countries."
+        },
+        {
+          "name": "Breathwrk",
+          "acquired_date": "2025-10",
+          "relationship": "acquired_company",
+          "notes": "Wellness breathing app acquisition."
+        }
+      ]
+    },
+    {
+      "parent": "Dyaco International Inc.",
+      "parent_hq": "Taipei City, Taiwan",
+      "parent_status": "active",
+      "public": true,
+      "ticker": "1598.TW",
+      "exchange": "Taiwan Stock Exchange (TWSE)",
+      "notes": "Founded 1990. TTM revenue ~$216M (Sept 2025). Manufactures commercial, medical, rehab, and home fitness equipment. Also OEMs for other brands. Brands sold under multiple segments: Spirit (commercial), SOLE (home), XTERRA (value).",
+      "subsidiaries": [
+        {
+          "name": "Spirit Fitness",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Commercial fitness equipment — treadmills, ellipticals, bikes. Sold to gyms, hotels, corporate fitness centers."
+        },
+        {
+          "name": "SOLE Fitness",
+          "acquired_date": "2020",
+          "relationship": "acquired_brand",
+          "notes": "Acquired Fitness Equipment Services LLC (SOLE) for $28M in 2020. Home fitness treadmills, ellipticals, bikes. Strong direct-to-consumer brand."
+        },
+        {
+          "name": "XTERRA Fitness",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Budget/entry-level home fitness equipment."
+        },
+        {
+          "name": "Dyaco Medical / Spirit Medical Systems",
+          "acquired_date": "in-house",
+          "relationship": "wholly_owned_division",
+          "notes": "Medical and rehabilitation equipment segment."
+        },
+        {
+          "name": "Fuel Fitness",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Additional home fitness brand."
+        },
+        {
+          "name": "Intrepid",
+          "acquired_date": "in-house brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Fitness brand within Dyaco portfolio."
+        }
+      ]
+    },
+    {
+      "parent": "Core Health & Fitness (Gainline Capital Partners portfolio)",
+      "parent_hq": "Vancouver, Washington",
+      "parent_status": "active",
+      "public": false,
+      "pe_owner": "Gainline Capital Partners (invested Feb 2020)",
+      "notes": "Founded by Michael Bruno (current Chairman/CEO) in 2009 when he acquired StairMaster from Nautilus Inc. Gainline Capital Partners (Stamford, CT PE firm) invested in Feb 2020. Describes itself as 'world's largest privately-held manufacturer and distributor of commercial fitness products.' Products sold in 100+ countries. Also acquired Jacobs Ladder and Wexer digital platform.",
+      "subsidiaries": [
+        {
+          "name": "StairMaster",
+          "acquired_date": "2009",
+          "relationship": "wholly_owned_brand",
+          "notes": "Acquired from Nautilus Inc. Original stair-climbing machine. Cornerstone brand of Core H&F."
+        },
+        {
+          "name": "Star Trac",
+          "acquired_date": "2010",
+          "relationship": "wholly_owned_brand",
+          "notes": "Commercial cardio equipment. Acquired one year after Core H&F was founded."
+        },
+        {
+          "name": "Nautilus (commercial brand)",
+          "acquired_date": "acquired from Med-Fit Systems",
+          "relationship": "wholly_owned_brand",
+          "notes": "The Nautilus COMMERCIAL equipment brand (not to be confused with the former Nautilus Inc./BowFlex Inc. consumer company). Acquired from Med-Fit Systems."
+        },
+        {
+          "name": "Schwinn (commercial)",
+          "acquired_date": "part of commercial brand acquisitions",
+          "relationship": "wholly_owned_brand",
+          "notes": "Schwinn COMMERCIAL indoor cycling bikes and fitness equipment. Separate from the Schwinn consumer fitness brand now owned by Johnson Health Tech."
+        },
+        {
+          "name": "Throwdown",
+          "acquired_date": "acquired",
+          "relationship": "wholly_owned_brand",
+          "notes": "Functional training and MMA-style fitness equipment."
+        },
+        {
+          "name": "Wexer",
+          "acquired_date": "2021",
+          "relationship": "acquired_company",
+          "notes": "Digital fitness content platform. Acquired as part of digital sector consolidation strategy."
+        },
+        {
+          "name": "Jacobs Ladder",
+          "acquired_date": "acquired",
+          "relationship": "acquired_brand",
+          "notes": "Ladder climbing fitness equipment."
+        }
+      ]
+    },
+    {
+      "parent": "Technogym S.p.A.",
+      "parent_hq": "Cesena, Italy",
+      "parent_status": "active",
+      "public": true,
+      "ticker": "TGYM.MI",
+      "exchange": "Borsa Italiana (Milan Stock Exchange / Euronext Milan)",
+      "notes": "Founded 1983 by Nerio Alessandri. Market cap ~$3.91B, TTM revenue ~$1.15B (Mar 2026). Alessandri holds 33.78% of shares via TGH S.r.l. with 50.48% of voting rights (dual-class structure). Vertically integrated — designs and manufactures its own equipment. Official supplier to multiple Olympic Games. Premium positioning in commercial and luxury home markets.",
+      "subsidiaries": [
+        {
+          "name": "Technogym (single integrated brand)",
+          "acquired_date": "n/a",
+          "relationship": "single_brand_company",
+          "notes": "Unlike other groups, Technogym operates under one brand across commercial, home, and digital segments (Technogym Live, Technogym App, Mywellness cloud platform)."
+        }
+      ]
+    },
+    {
+      "parent": "FitLab Inc.",
+      "parent_hq": "Los Angeles, California",
+      "parent_status": "active",
+      "public": false,
+      "notes": "Founded 2019 by former Nike and New Evolution Ventures executives Brian Kirkbride and Mike Melby. Raised $15M in 2022, closed Series B in 2023. Partnered with Nike to launch Nike Studios. Growing portfolio of fitness equipment, studios, and events. Describes itself as 'integrated fitness platform.'",
+      "subsidiaries": [
+        {
+          "name": "Assault Fitness",
+          "acquired_date": "2024-02-27",
+          "relationship": "acquired_company",
+          "notes": "Self-powered bikes (AssaultBike), treadmills, rowers. Ubiquitous in CrossFit boxes, pro sports, US military. Previously owned by LifeCORE Fitness Inc."
+        },
+        {
+          "name": "RPM Training",
+          "acquired_date": "2024-02-27",
+          "relationship": "acquired_company",
+          "notes": "Performance equipment and apparel brand. Popular in functional training space."
+        },
+        {
+          "name": "Ragnar",
+          "acquired_date": "acquired",
+          "relationship": "acquired_company",
+          "notes": "Mass participation relay running events."
+        },
+        {
+          "name": "Other studio/digital brands",
+          "acquired_date": "various",
+          "relationship": "portfolio_brands",
+          "notes": "Also owns Electric, XPT, Sanctuary Fitness, Racked, Fitplan, McGregor FAST, Yoga Vida, Mile High Run Club."
+        }
+      ]
+    },
+    {
+      "parent": "TRUE Fitness Technology, Inc.",
+      "parent_hq": "St. Louis, Missouri",
+      "parent_status": "active",
+      "public": false,
+      "notes": "Privately held commercial fitness equipment manufacturer. Acquired Octane Fitness in 2020 to expand product line.",
+      "subsidiaries": [
+        {
+          "name": "TRUE Fitness",
+          "acquired_date": "founding brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Commercial treadmills, ellipticals, bikes. Sold through dealer network to gyms and facilities."
+        },
+        {
+          "name": "Octane Fitness",
+          "acquired_date": "2020-10",
+          "relationship": "acquired_company",
+          "notes": "Acquired from Nautilus Inc. for $25M + $3.5M liabilities. Founded 2001. Leader in elliptical design. Products serve both residential and commercial markets."
+        }
+      ]
+    },
+    {
+      "parent": "WOODWAY GmbH",
+      "parent_hq": "Weil am Rhein, Germany",
+      "parent_status": "active",
+      "public": false,
+      "notes": "German parent company founded 1975. Makes premium slatted-belt treadmills used in pro sports, medical rehab, and high-end commercial gyms.",
+      "subsidiaries": [
+        {
+          "name": "WOODWAY USA, Inc.",
+          "acquired_date": "1988",
+          "relationship": "wholly_owned_subsidiary",
+          "notes": "US subsidiary in Waukesha, Wisconsin. US license granted 1988, WOODWAY USA formed 1990. Manufactures and distributes for North American market."
+        }
+      ]
+    },
+    {
+      "parent": "Brooks Industrial Marketplace / TuffStuff Fitness",
+      "parent_hq": "Chino, California",
+      "parent_status": "restructuring",
+      "public": false,
+      "notes": "Brooks Industrial Marketplace (global metals processing/fabrication) acquired TuffStuff in Dec 2022. TuffStuff filed Chapter 11 bankruptcy in 2023. Restructuring to wind down US manufacturing and offshore production while retaining engineering/design/prototyping in California. 66 employees.",
+      "subsidiaries": [
+        {
+          "name": "TuffStuff Fitness International",
+          "acquired_date": "2022-12",
+          "relationship": "acquired_company",
+          "notes": "Commercial and home strength equipment manufacturer. Founded in Chino, CA. Undergoing restructuring — shifting production overseas to stay competitive."
+        }
+      ]
+    },
+    {
+      "parent": "Echelon Fitness (private, multi-investor)",
+      "parent_hq": "Chattanooga, Tennessee",
+      "parent_status": "active",
+      "public": false,
+      "notes": "Connected fitness company with backing from Goldman Sachs Growth Equity, North Castle Partners, Eaglehead Capital, Schechter Private Capital, UTA Ventures. Originally part of Viatek Consumer Products Group. Expanding aggressively through acquisitions and new verticals (recovery, AI, telehealth).",
+      "subsidiaries": [
+        {
+          "name": "Echelon (connected fitness hardware/platform)",
+          "acquired_date": "founding brand",
+          "relationship": "wholly_owned_brand",
+          "notes": "Connected bikes, treadmills, rowers, mirrors with streaming classes. Positioned as affordable alternative to Peloton."
+        },
+        {
+          "name": "ELEVATE by Echelon (formerly FORTE)",
+          "acquired_date": "2025-07",
+          "relationship": "acquired_company",
+          "notes": "B2B fitness streaming platform. Acquired and rebranded July 2025."
+        },
+        {
+          "name": "Echelon Recovery",
+          "acquired_date": "2025",
+          "relationship": "new_division",
+          "notes": "Cold plunge tubs, compression boots — recovery equipment segment."
+        }
+      ]
+    }
+  ],
+  "standalone_manufacturers": [
+    {
+      "name": "Rogue Fitness",
+      "legal_name": "Coulter Ventures, LLC",
+      "hq": "Columbus, Ohio",
+      "status": "active",
+      "public": false,
+      "notes": "Founded 2007 by Bill Henniger in Toledo, OH (originally to equip his CrossFit affiliate). Now in 600,000 sq ft facility on 30 acres in Columbus. Official equipment manufacturer of USA Weightlifting. Dominant in CrossFit, functional fitness, and garage gym markets. Manufactures barbells, racks, rigs, plates, and accessories. Bill Henniger remains owner/leader. No outside investors known."
+    },
+    {
+      "name": "Concept2",
+      "hq": "Morrisville, Vermont",
+      "status": "active",
+      "public": false,
+      "notes": "Founded 1976 by brothers Peter and Dick Dreissigacker. As of January 1, 2025, 100% ownership transferred to the Concept2 Perpetual Purpose Trust (employee-stewardship model). No longer family-owned in the traditional sense but fully independent — NOT owned by any conglomerate. Dominant in rowing ergometers (used in virtually all competitive indoor rowing). Also makes SkiErg and BikeErg."
+    },
+    {
+      "name": "HOIST Fitness",
+      "hq": "San Diego, California",
+      "status": "active",
+      "public": false,
+      "notes": "Privately held. Premium strength training equipment and exercise bikes for commercial and home markets. Annual revenue ~$20.7M (2025), ~60 employees across 3 continents. Acquired LeMond Fitness indoor cycling brand in 2012."
+    },
+    {
+      "name": "Body-Solid, Inc.",
+      "hq": "Forest Park, Illinois",
+      "status": "active",
+      "public": false,
+      "notes": "Founded 1989 in Chicago, IL. Over 200,000 sq ft distribution facility in Forest Park (just outside Chicago). Manufactures and distributes home and commercial strength & conditioning equipment. Over 500 product SKUs. Appears to be independently/privately held — no PE ownership or acquisition found."
+    },
+    {
+      "name": "REP Fitness",
+      "hq": "Denver, Colorado",
+      "status": "active",
+      "public": false,
+      "notes": "Founded 2011-2012 by brothers Ryan and Shane McGrotty in a garage in Longmont, CO. Over 200 employees. Showrooms in California and Pennsylvania. Sells in four continents. No outside funding raised. Independent, bootstrapped company. Strong in garage gym / home gym market (racks, benches, dumbbells, functional trainers)."
+    },
+    {
+      "name": "Titan Brands (Titan Fitness)",
+      "hq": "Memphis, Tennessee",
+      "status": "active",
+      "public": false,
+      "notes": "Formerly Titan Manufacturing & Distribution, rebranded to Titan Brands. Parent company of Titan Fitness, Titan Attachments, Titan Ramps, and Titan Great Outdoors. Privately held. Budget-friendly racks, benches, and strength equipment for home/garage gyms. Competes directly with REP Fitness and Rogue."
+    },
+    {
+      "name": "Torque Fitness",
+      "hq": "Coon Rapids, Minnesota",
+      "status": "active",
+      "public": false,
+      "notes": "Privately held LLC, founded 2005. Annual revenue ~$11M (2025), ~49 employees. Commercial functional training equipment. Clients include Anytime Fitness, Gold's Gym, Life Time Fitness, Pittsburgh Steelers."
+    },
+    {
+      "name": "LifeSpan Fitness (PCE Health and Fitness)",
+      "hq": "Salt Lake City, Utah",
+      "status": "active",
+      "public": false,
+      "notes": "LifeSpan is a brand of PCE Health and Fitness (founded ~2002 by Pete Schenk). Dominates the treadmill desk / under-desk treadmill niche. Also makes home treadmills and ellipticals. 25+ years in home fitness market. Privately held."
+    },
+    {
+      "name": "Inspire Fitness (Health In Motion LLC)",
+      "hq": "United States",
+      "status": "active",
+      "public": false,
+      "notes": "Inspire Fitness is a division of Health In Motion LLC. Premium functional trainers, home gyms, and smith machines. Centr (Chris Hemsworth's wellness brand) reportedly acquired the brand in 2022, though it still operates under Health In Motion. Privately held."
+    }
+  ],
+  "key_industry_events": [
+    {
+      "date": "2019-06",
+      "event": "KPS Capital Partners acquires Brunswick Corporation's fitness business (Life Fitness, Hammer Strength, Cybex, ICG, SCIFIT) for $490M"
+    },
+    {
+      "date": "2020-01",
+      "event": "Dyaco International acquires SOLE Fitness for $28M"
+    },
+    {
+      "date": "2020-02",
+      "event": "Gainline Capital Partners invests in Core Health & Fitness"
+    },
+    {
+      "date": "2020-10",
+      "event": "TRUE Fitness acquires Octane Fitness from Nautilus Inc. for $25M"
+    },
+    {
+      "date": "2020-12",
+      "event": "Peloton announces acquisition of Precor from Amer Sports for $420M (closes April 2021)"
+    },
+    {
+      "date": "2021-09",
+      "event": "ICON Health & Fitness rebrands as iFIT Health & Fitness; withdraws planned IPO"
+    },
+    {
+      "date": "2022-02",
+      "event": "iFIT raises $355M from L Catterton, avoids bankruptcy. Major layoffs."
+    },
+    {
+      "date": "2022-12",
+      "event": "Brooks Industrial Marketplace acquires TuffStuff Fitness International"
+    },
+    {
+      "date": "2023-10",
+      "event": "Nautilus Inc. rebrands as BowFlex Inc."
+    },
+    {
+      "date": "2023-11",
+      "event": "TuffStuff files Chapter 11 bankruptcy"
+    },
+    {
+      "date": "2024-03",
+      "event": "BowFlex Inc. files for bankruptcy"
+    },
+    {
+      "date": "2024-04",
+      "event": "Johnson Health Tech acquires BowFlex, Schwinn, and JRNY brands for $37.5M at bankruptcy auction"
+    },
+    {
+      "date": "2024-02",
+      "event": "FitLab acquires Assault Fitness and RPM Training"
+    },
+    {
+      "date": "2025-01",
+      "event": "Concept2 transfers 100% ownership to Perpetual Purpose Trust (employee stewardship)"
+    },
+    {
+      "date": "2025-01",
+      "event": "Johnson Health Tech merges four NA subsidiaries into Johnson Health Tech North America Corp."
+    },
+    {
+      "date": "2025-08",
+      "event": "Peloton lays off 6% of staff as part of $100M cost reduction plan"
+    },
+    {
+      "date": "2025-10",
+      "event": "Peloton acquires Breathwrk wellness app"
+    },
+    {
+      "date": "2026-01",
+      "event": "Peloton lays off 11% of staff (primarily engineering)"
+    },
+    {
+      "date": "2026-02",
+      "event": "iFIT partners with EGYM for connected training integration"
+    }
+  ],
+  "brand_confusion_notes": [
+    {
+      "issue": "Schwinn brand split",
+      "explanation": "Schwinn FITNESS has two separate owners: (1) Schwinn CONSUMER fitness (bikes, ellipticals for home) is owned by Johnson Health Tech via the BowFlex acquisition. (2) Schwinn COMMERCIAL (indoor cycling bikes for gyms) is owned by Core Health & Fitness. These are different companies using the same brand name in different market segments."
+    },
+    {
+      "issue": "Nautilus brand split",
+      "explanation": "The 'Nautilus' name appears in multiple places: (1) Nautilus COMMERCIAL equipment brand is owned by Core Health & Fitness. (2) The former Nautilus Inc. (renamed BowFlex Inc.) went bankrupt — its consumer brands (BowFlex, Schwinn consumer, JRNY) were acquired by Johnson Health Tech. The Nautilus commercial brand was separately sold to Med-Fit Systems and later acquired by Core H&F."
+    },
+    {
+      "issue": "Gold's Gym brand",
+      "explanation": "Gold's Gym HOME EQUIPMENT is manufactured by iFIT under a license agreement. The Gold's Gym GYM CHAIN brand is separately owned (RSG Group acquired it out of bankruptcy in 2020). These are completely separate businesses."
+    }
+  ]
+}
