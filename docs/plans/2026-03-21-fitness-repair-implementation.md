@@ -738,10 +738,10 @@ from __future__ import annotations
 import json
 import sqlite3
 from pathlib import Path
-from typing import Optional
+from typing import Optional, Union
 
 
-def _read_json(path: Path) -> dict | list:
+def _read_json(path: Path) -> Union[dict, list]:
     with open(path) as f:
         return json.load(f)
 
