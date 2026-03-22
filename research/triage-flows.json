@@ -1,0 +1,980 @@
+{
+  "treadmill__wont_start": {
+    "equipment_type": "treadmill",
+    "entry_symptom": "Treadmill won't turn on or has no power",
+    "talk_track_opener": "Alright, let's figure out what's going on with your treadmill. I'll walk you through a few quick checks — most of the time we can narrow it down pretty fast.",
+    "steps": [
+      {
+        "question": "Before we start — do you notice any burning smell, see any sparking, or see any burn marks around the power cord or the back of the machine?",
+        "if_yes": "safety_abort",
+        "if_no": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Okay, first thing — is the safety key in place and pushed all the way in? That's the little clip that usually attaches to you with a lanyard.",
+        "if_yes": "next",
+        "if_no": "That's probably it. The treadmill won't do anything without the safety key fully seated. Try pressing it in firmly. If it seems damaged or the magnet feels weak, a universal replacement key is about eight dollars on Amazon. Give that a try and let me know if that gets it going.",
+        "diy_possible": true
+      },
+      {
+        "question": "Is the power cord plugged directly into a wall outlet — not a power strip or extension cord?",
+        "if_yes": "next",
+        "if_no": "Go ahead and plug it straight into the wall. Treadmill motors pull a lot of current and they'll trip the surge protector on a power strip without warning. That catches a lot of people. Try that and see what happens.",
+        "diy_possible": true
+      },
+      {
+        "question": "Check the back of the treadmill near where the power cord plugs in. Do you see a small reset button or a switch? Some treadmills have a circuit breaker there. If you find one, try pressing the reset button or flipping the switch off and back on.",
+        "if_yes_found_and_reset": "Great — give it a minute and then try turning it on. That reset breaker trips more often than you'd think.",
+        "if_no_or_no_button": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Do you see any lights on the console at all — even a dim glow, a flicker, anything?",
+        "if_yes": "next",
+        "if_no": "With no lights at all, it's likely either a blown internal fuse or the motor controller board. Those aren't really do-it-yourself fixes. Our tech can bring test equipment and usually sort it out in one visit. Want me to get someone scheduled for you?",
+        "diy_possible": false
+      },
+      {
+        "question": "So the console has power. When you press start, does the belt move at all — even a little?",
+        "if_yes": "If it starts but struggles or stops quickly, that usually points to worn motor brushes or a slipping drive belt. The good news is brushes are a cheap fix — about fifteen to thirty dollars in parts. Our tech can handle that on-site in under an hour. Want me to get that set up?",
+        "if_no": "The console is alive but the belt won't move — that's typically the motor controller board or the wiring between the board and the motor. Our tech will bring the right test equipment to pin it down. Let me grab your info to schedule a visit.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "This one's going to need a hands-on look from our tech. Let me grab your info so we can get someone out there.",
+    "resolution_diy": "Great — glad we got that sorted out. Give us a call back if you run into anything else.",
+    "safety_abort": "Hold on — if you see any sparking, burn marks, or smell anything burning near the power cord or the back of the machine, please unplug it right away and don't plug it back in. That's a potential fire hazard, and we definitely don't want to troubleshoot that over the phone. Let me get a tech out to you as soon as possible."
+  },
+
+  "treadmill__belt_slipping": {
+    "equipment_type": "treadmill",
+    "entry_symptom": "Treadmill belt slips, slides to one side, or feels loose",
+    "talk_track_opener": "Okay, belt issues are really common and a lot of the time it's a pretty simple fix. Let me walk you through some checks.",
+    "steps": [
+      {
+        "question": "First, a quick safety question — do you notice any burning smell coming from the treadmill, or does it feel hot underneath the belt?",
+        "if_yes": "safety_abort",
+        "if_no": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "When you say the belt is giving you trouble — is it slipping when you walk or run on it, like your feet push it back? Or is it drifting off to one side?",
+        "if_slipping": "next",
+        "if_drifting": "That's a tracking issue. Here's what to do — there are two bolts at the very back of the treadmill, one on each side of the rear roller. Turn the bolt on the side the belt is drifting toward about a quarter turn clockwise. Just a quarter turn. Then run it at a slow speed with nobody on it for about thirty seconds and see if it straightens out. You might need to do another quarter turn. Does that sound doable?",
+        "diy_possible": true
+      },
+      {
+        "question": "When was the last time the belt was lubricated? You can check by lifting the edge of the belt and sliding your hand between the belt and the deck underneath. Does it feel dry, or can you feel some slickness?",
+        "if_dry": "That's probably your issue right there. A dry belt creates too much friction, which makes it feel like it's slipping and can eventually burn out the motor. You'll want one-hundred-percent silicone treadmill lubricant — you can get it on Amazon for about fifteen to twenty dollars. Squirt it under the belt on both sides, then run the treadmill at low speed for a couple minutes to spread it around. That fixes about eighty percent of belt slip complaints.",
+        "if_slick": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Let's check the tension. With the treadmill off, go to the center of the belt and try to lift one side. Can you pull it up about two to three inches from the deck?",
+        "if_too_loose": "The belt is too loose. Those same two bolts at the back of the machine control the tension. Turn each one a quarter turn clockwise — make sure you do the same amount on both sides to keep the belt centered. Then check again. You want about two to three inches of lift at the center.",
+        "if_too_tight": "Actually, if you can barely lift it, the belt might be too tight. That puts a lot of strain on the motor and bearings. Try loosening each of those rear bolts a quarter turn counterclockwise, same amount on both sides.",
+        "if_about_right": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Does the slipping mainly happen at higher speeds, or when someone heavier steps on it?",
+        "if_yes": "If the belt is lubed and tensioned right but still slips under load, it could be the drive belt — that's the small belt inside the motor cover that connects the motor to the front roller. It can stretch or glaze over time. That one's a bit more involved. Our tech can swap it out on-site, usually takes about forty-five minutes. Want me to set that up?",
+        "if_no": "If you're still having trouble after lubrication and tension adjustment, the belt itself might be worn out. Our tech can take a look and bring a replacement belt if needed. Want me to get someone scheduled?",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Sounds like this one needs a closer look. Let me grab your info and get our tech scheduled to come take a look.",
+    "resolution_diy": "Great — that should do it. Keep up with the lubrication every three months or so and you shouldn't have this problem again. Call us back if anything else comes up.",
+    "safety_abort": "Stop right there — if you're getting a burning smell or the deck feels hot under the belt, turn the treadmill off and unplug it right now. That means there's too much friction building up, and running it further could damage the motor or even be a fire risk. We need to get a tech out to check the belt, deck, and motor. Let me get that scheduled for you."
+  },
+
+  "treadmill__burning_smell": {
+    "equipment_type": "treadmill",
+    "entry_symptom": "Burning smell, smoke, or sparking from treadmill",
+    "talk_track_opener": "Okay, a burning smell from a treadmill is something we take seriously. Let me ask you a few quick questions so we can figure out what's going on and make sure you're safe.",
+    "steps": [
+      {
+        "question": "First things first — is the treadmill unplugged right now?",
+        "if_yes": "Good, let's keep it that way until we figure this out.",
+        "if_no": "Go ahead and unplug it right now for me. Don't just turn it off — actually pull the plug from the wall. We want it completely disconnected while we talk through this.",
+        "diy_possible": true
+      },
+      {
+        "question": "Did you see any actual smoke or sparking, or is it just a smell?",
+        "if_smoke_or_sparks": "With visible smoke or sparks, this is definitely a tech visit. Do not plug that machine back in. Our tech will come out with the right equipment to find the source. It could be the motor brushes, the controller board, or a wiring issue. Let me get someone out to you right away.",
+        "if_just_smell": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Can you describe the smell? Does it smell more like hot rubber — kind of like a rubber band burning — or more like an electrical smell, like a burnt circuit board?",
+        "if_rubber": "next",
+        "if_electrical": "An electrical burning smell usually means the motor controller board or wiring. That's not something to troubleshoot at home. Keep it unplugged and we'll get a tech out to diagnose it. They'll bring replacement parts for the most common causes. Want me to get that set up?",
+        "diy_possible": false
+      },
+      {
+        "question": "A rubber smell is usually friction-related. When was the last time the belt was lubricated? And has the treadmill been used a lot recently — like heavier use than normal?",
+        "if_never_or_long_time": "That's almost certainly it. When the belt and deck dry out, the friction builds up heat, and that's your burning rubber smell. The good news is this is fixable. You'll want one-hundred-percent silicone treadmill lubricant — about fifteen to twenty dollars. But here's the thing — since it got hot enough to smell, the belt may be damaged. Lift the edge and check the underside. If it feels smooth and shiny instead of slightly textured, the belt needs replacing. If it still has some texture, lubricate it and give it a try. But if the smell comes back, stop using it and call us.",
+        "if_recently_lubed": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Is the belt very tight? Try lifting the edge of the belt from the center of the deck. Can you get it up about two to three inches?",
+        "if_very_tight": "An over-tight belt creates a lot of extra friction and heat. That could be your burning smell. Loosen each of the rear roller bolts a quarter turn counterclockwise — same amount on each side. Then lubricate the belt, and run it at low speed for a few minutes to see if the smell is gone. If it comes back, stop and call us.",
+        "if_seems_normal": "If the belt is lubed and properly tensioned but you're still getting a burning smell, it could be the motor brushes wearing down. That's a very common issue — brushes are about fifteen dollars in parts. Our tech can check that along with the motor and controller board. Want me to get someone scheduled?",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Given the burning smell, I'd recommend having our tech come take a look to be safe. They can check the belt, deck, motor brushes, and controller board all in one visit. Let me get your info.",
+    "resolution_diy": "Okay, give that a try — but keep an eye on it. If the smell comes back at all, stop using the treadmill and call us right away. Better safe than sorry.",
+    "safety_abort": "Any time you see smoke or sparks from a treadmill, it stays unplugged until a tech inspects it. Do not plug it back in. This could be a motor, wiring, or controller issue, and it needs to be checked in person. Let me get a tech to you as quickly as we can."
+  },
+
+  "elliptical__squeaking": {
+    "equipment_type": "elliptical",
+    "entry_symptom": "Elliptical making squeaking, clicking, or grinding noises",
+    "talk_track_opener": "Noisy ellipticals are really common, and the fix is usually simpler than you'd think. Let me help you figure out where the sound is coming from.",
+    "steps": [
+      {
+        "question": "Quick safety check — is it a grinding noise like metal on metal, or more of a squeak or click?",
+        "if_metal_grinding": "A metal-on-metal grinding sound could mean a bearing has gone bad. You can still use the machine carefully, but I'd recommend stopping if it gets louder or you feel vibration. Let me walk through a couple things, but this one may need a tech.",
+        "if_squeak_or_click": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Let's figure out where the noise is coming from. When you use the elliptical slowly, does the sound happen at the same point in every stride — like at the top or bottom of the pedal motion?",
+        "if_yes_same_point": "next",
+        "if_random_or_constant": "A constant noise that doesn't change with your stride is probably coming from the flywheel area. That's usually a bearing or the drive belt. Our tech can pinpoint it, but let me ask a couple more things first.",
+        "diy_possible": false
+      },
+      {
+        "question": "Check the bolts where the pedal arms connect to the machine — the pivot points where everything moves. Can you see if any of them feel loose? You might be able to jiggle the arm and feel play in it.",
+        "if_loose": "There you go. Loose bolts at the pivot points are the number one cause of clicking on an elliptical. Grab a wrench and snug them up — firm, but don't go gorilla on it. You want them tight, not stripped. That alone fixes the noise about half the time.",
+        "if_tight": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Try this — get some silicone spray lubricant or even WD-40 for now, and spray a little on each of the pivot points where the arms move. Give it a few minutes to work in, then try the machine again. Any change?",
+        "if_noise_gone": "resolution_diy",
+        "if_still_noisy": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Is the noise coming from down near the pedals or from higher up near the handlebars?",
+        "if_pedal_area": "That's likely the pedal arm bearings. They take a lot of stress, especially from lateral forces. Our tech can replace those on-site — it's a pretty standard repair. Want me to get someone scheduled?",
+        "if_handlebar_area": "The moving handlebar pivot bearings can wear out and start clicking. Same deal — our tech can swap those out. Want me to set up a visit?",
+        "if_middle_flywheel": "If it's coming from the center of the machine where the covers are, that's the flywheel or drive belt area. Our tech will need to open things up and take a look. Let me get that arranged for you.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Sounds like the bearings or internal components need attention. Let me grab your info and get our tech out there.",
+    "resolution_diy": "Excellent — a little lubrication goes a long way. Keep those pivot points sprayed down every month or so and you'll avoid this in the future. Call us if the noise comes back.",
+    "safety_abort": "If you're hearing a loud grinding or feel any sudden catching or locking in the motion, stop using the machine right away. That could be a bearing that's about to seize, and continuing to use it could cause a bigger problem or a safety issue. Let me get a tech scheduled for you."
+  },
+
+  "elliptical__no_resistance": {
+    "equipment_type": "elliptical",
+    "entry_symptom": "Elliptical resistance not working or stuck at one level",
+    "talk_track_opener": "Okay, let's see if we can get your resistance working again. There are a few things we can check before we send a tech out.",
+    "steps": [
+      {
+        "question": "Just to make sure — is the console on and working, or is the display dead too?",
+        "if_console_dead": "If the console is dead, that's probably the root of the resistance problem too, since the console sends the signal to change resistance. Let me walk you through the console troubleshooting instead — we'll fix one problem and probably fix both. Is the machine plugged in, or does it run on batteries?",
+        "if_console_working": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "When you change the resistance level on the console, can you hear any sound at all — like a motor buzzing or a clicking — even if the resistance doesn't actually change?",
+        "if_buzzing": "If you hear the motor trying, that's actually good news in a way — it means the signal is getting through but the motor can't move the resistance mechanism. It might be jammed or the motor might be worn out. Our tech can usually fix that on-site. Want me to set that up?",
+        "if_no_sound": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Try this — unplug the machine completely, wait about sixty seconds, then plug it back in. Sometimes the control board just needs a reset. Go ahead and try that and tell me if the resistance responds after it powers back up.",
+        "if_fixed": "resolution_diy",
+        "if_still_broken": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Do you know if your elliptical uses a magnetic resistance system or a friction pad system? Magnetic systems are more common on newer machines — there's no contact between the brake and the flywheel.",
+        "if_magnetic": "On a magnetic system, the issue is almost always either the servo motor that moves the magnets or the wiring between the console and that motor. That's going to need our tech to diagnose and fix. They'll bring the replacement parts for the most common causes.",
+        "if_friction": "On a friction system, the brake pad might be worn out or the cable that moves it could be stretched or disconnected. You can try looking inside the flywheel cover for a small cable or lever that moves when you change resistance — but honestly, this is easier for our tech to handle.",
+        "if_not_sure": "No worries — our tech will figure that out when they come. The resistance system is one of those things that's hard to diagnose without looking at it.",
+        "diy_possible": false
+      },
+      {
+        "question": "Would you like me to get a tech visit set up for you? They'll come out, figure out exactly what's going on with the resistance system, and most of the time they can fix it in one visit.",
+        "if_yes": "resolution_needs_tech",
+        "if_wants_to_wait": "No problem. The machine is still safe to use for a workout — you just won't have adjustable resistance. But give us a call when you're ready to get it fixed.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me get your info and we'll get our tech out to take care of the resistance system. They'll bring the common replacement parts so we can hopefully get it done in one trip.",
+    "resolution_diy": "A simple reset did the trick. That happens more often than you'd think. If it stops working again, give us a call and we'll send someone out.",
+    "safety_abort": "If you notice any burning smell or see sparking around the resistance motor area, stop using the machine and unplug it. Let me get a tech scheduled for you right away."
+  },
+
+  "elliptical__console_dead": {
+    "equipment_type": "elliptical",
+    "entry_symptom": "Elliptical console or display is dead or unresponsive",
+    "talk_track_opener": "A dead console is frustrating, but it's usually something simple. Let me walk you through a few things to try.",
+    "steps": [
+      {
+        "question": "Does your elliptical plug into the wall, or is the console powered by batteries?",
+        "if_wall_power": "next",
+        "if_batteries": "Go ahead and swap the batteries out with fresh ones — even if the old ones seem fine. Weak batteries are the number one cause of dead consoles on battery-powered ellipticals. The display might seem completely dead when the batteries are just low.",
+        "if_not_sure": "Take a look at the base of the machine near the front. If there's a power cord, it plugs in. If not, there's usually a battery compartment on the back of the console — look for a small cover you can pop off.",
+        "diy_possible": true
+      },
+      {
+        "question": "If it plugs in — is it plugged in and is the outlet working? Try plugging something else into the same outlet to make sure.",
+        "if_outlet_works": "next",
+        "if_outlet_dead": "Try a different outlet. If the outlet is on a switch, make sure the switch is on. Sometimes people flip the wrong switch and kill the outlet without realizing it.",
+        "diy_possible": true
+      },
+      {
+        "question": "Try unplugging the elliptical for a full ten minutes, then plug it back in. This does a hard reset on the control board. Some machines need this after a power surge or even just a software hiccup. Did that bring the console back?",
+        "if_yes": "resolution_diy",
+        "if_no": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "The wires from the base of the machine run up through the mast — that tall pole — to the console. During assembly, those wires sometimes get pinched, or the connector can come loose. If you're comfortable with it, check where the console attaches to the mast and see if there's a connector you can unplug and replug. Just make sure the machine is unplugged from the wall first.",
+        "if_found_loose_wire": "That could be it. Plug the connector back in firmly, plug the machine back into the wall, and see if the console comes back.",
+        "if_all_connected": "next",
+        "if_not_comfortable": "No problem — that's something our tech can check. Let me get that set up for you.",
+        "diy_possible": true
+      },
+      {
+        "question": "We've tried the basics and the console is still dark. This is likely either a failed console unit or the power board inside it. Our tech can test the wiring and figure out whether the console needs to be replaced. Want me to get someone scheduled?",
+        "if_yes": "resolution_needs_tech",
+        "if_no": "Okay. The machine itself may still work for exercise — you just won't have the display. Call us when you're ready to get it looked at.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will test the wiring and console and can order the right replacement part if needed.",
+    "resolution_diy": "A good old reset did the trick. Happens all the time. If it goes dead again, especially after a storm or power flicker, try the unplug-for-ten-minutes trick again. Call us if it keeps happening.",
+    "safety_abort": "If you see any burn marks on the wiring or smell anything burning from the console area, stop and unplug the machine. Let me get a tech scheduled for you."
+  },
+
+  "stepper__no_resistance": {
+    "equipment_type": "stair_stepper",
+    "entry_symptom": "Stair stepper has no resistance or resistance is stuck",
+    "talk_track_opener": "Alright, let's get your stepper figured out. Resistance issues have a few common causes, and we can usually narrow it down pretty quickly.",
+    "steps": [
+      {
+        "question": "First — do you notice any burning smell or unusual odors coming from the machine?",
+        "if_yes": "safety_abort",
+        "if_no": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "What kind of stepper do you have? Is it a full-size commercial-style stair climber — the kind you see at the gym — or more of a compact home unit with two pedals that push up and down?",
+        "if_commercial": "next",
+        "if_home_unit": "Home steppers usually use hydraulic cylinders for resistance. Do you see any oil or fluid leaking from the cylinders underneath the pedals?",
+        "diy_possible": true
+      },
+      {
+        "question": "On a commercial stepper — is the resistance completely gone, or is it stuck at one level and won't change?",
+        "if_completely_gone": "That usually points to the alternator — it's the part that generates resistance. The brushes inside it wear out over time, similar to a treadmill motor. Our tech can check the brushes and the alternator. This is usually a tech repair. Want me to get that scheduled?",
+        "if_stuck_at_one_level": "If it's stuck at one level, it might be a control signal issue between the console and the resistance generator. Try unplugging the machine for sixty seconds and plugging it back in to reset the control board. If that doesn't fix it, our tech will need to check the wiring and control board.",
+        "diy_possible": false
+      },
+      {
+        "question": "For home hydraulic steppers — is one pedal harder than the other, or are both pedals giving no resistance?",
+        "if_one_side": "One weak side means that cylinder is failing. The cylinders are pretty easy to replace — they bolt on with two bolts each. You can order replacements from the manufacturer for about twenty-five to sixty dollars. If you want, I can have our tech do it, or I can point you to the right parts.",
+        "if_both_sides": "Both sides going soft at the same time usually means the hydraulic fluid has leaked out or the cylinders are both worn. Same fix — replace both cylinders. They're about twenty-five to sixty dollars each from the manufacturer.",
+        "diy_possible": true
+      },
+      {
+        "question": "Would you like to try replacing the cylinders yourself, or would you prefer our tech to handle it?",
+        "if_diy": "You'll want to look up the exact cylinder model for your stepper — the manufacturer and model number should be on a sticker somewhere on the frame. Order direct from the manufacturer to get the right stroke length. Two bolts per cylinder, pretty straightforward swap.",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me get your info and we'll send our tech out. They'll diagnose the resistance system and come prepared with the most common replacement parts.",
+    "resolution_diy": "Sounds like a plan. Give us a call if you run into any trouble with the replacement or if the problem comes back.",
+    "safety_abort": "If you're smelling something burning from the stepper, please stop using it and unplug it right away. That could be the alternator or wiring overheating. Let me get a tech out to you."
+  },
+
+  "stepper__hydraulic_leak": {
+    "equipment_type": "stair_stepper",
+    "entry_symptom": "Hydraulic fluid leaking from stepper",
+    "talk_track_opener": "Oil leaking from a stepper is a common issue on home hydraulic units. Let me walk you through what's happening and what your options are.",
+    "steps": [
+      {
+        "question": "Just to be safe — is the leaking fluid clear or yellowish oil, or does it look or smell like anything else?",
+        "if_oil": "next",
+        "if_unusual": "If it's not the typical hydraulic fluid, stop using the machine and let me get a tech to take a look. Sometimes non-standard fluid can indicate a different problem.",
+        "diy_possible": true
+      },
+      {
+        "question": "Can you see exactly where the oil is coming from? Is it leaking from the cylinder itself — that's the tube-shaped part under the pedals — or from where the cylinder connects to the frame?",
+        "if_from_cylinder": "next",
+        "if_from_connection": "If it's leaking at the connection point, the bolts might just be loose. Try tightening the bolts where the cylinder attaches to the frame. If the leak stops, you're good. If it keeps leaking from there, the seal at the connection point is gone and the cylinder needs replacing.",
+        "diy_possible": true
+      },
+      {
+        "question": "How much fluid is leaking? Is it a slow drip, or is there a puddle under the machine?",
+        "if_slow_drip": "A slow drip means the seal is starting to fail. You can keep using it for a little while, but the resistance is going to get weaker over time as it loses fluid. I'd recommend replacing the cylinder sooner rather than later.",
+        "if_puddle": "That's a seal that's fully gone. The cylinder won't have much resistance left. Stop using that side to avoid uneven strain on your body. You'll want to replace it.",
+        "diy_possible": true
+      },
+      {
+        "question": "The good news is hydraulic cylinders on home steppers are pretty easy to replace yourself. They bolt on with two bolts. The replacement part runs about twenty-five to sixty dollars from the manufacturer. Do you know the brand and model of your stepper?",
+        "if_knows_model": "Great. Look that up on the manufacturer's website or on Amazon — search for the model number plus 'replacement hydraulic cylinder.' Make sure you get the right stroke length. While you're at it, I'd replace both cylinders so they match — a new one on one side and a worn one on the other will feel uneven.",
+        "if_doesnt_know": "Check the frame for a sticker with the brand, model name, and model number. That's what you'll need to order the right replacement cylinder. If you can't find it, send us a photo and we can help identify it.",
+        "diy_possible": true
+      },
+      {
+        "question": "Would you like to tackle the replacement yourself, or would you prefer our tech to do it?",
+        "if_diy": "resolution_diy",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "No problem. Let me grab your info and we'll get someone out there. It's a quick job once we have the right cylinders.",
+    "resolution_diy": "You got this. It's a straightforward swap — two bolts per cylinder. Put a towel down to catch any remaining fluid, and clean up any oil on the frame to keep it from getting slippery. Call us if you need any help.",
+    "safety_abort": "If you see fluid leaking onto the floor where you step, clean it up right away — it's a slip hazard. Stop using the machine until the cylinder is replaced. Let me get a tech scheduled if you'd like."
+  },
+
+  "stepper__uneven_steps": {
+    "equipment_type": "stair_stepper",
+    "entry_symptom": "Stepper steps are uneven — one side harder or different than the other",
+    "talk_track_opener": "Uneven steps are annoying, and it's not great for your body either. Let's figure out what's causing it.",
+    "steps": [
+      {
+        "question": "Before we dig in — do you hear any unusual sounds, like grinding or clunking, when you use the machine?",
+        "if_yes": "What kind of sound is it? Grinding could mean a bearing or bushing issue. Clunking might be something loose. Let me keep going and we'll get to the bottom of it.",
+        "if_no": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Is this a full-size commercial stepper — the kind with a chain-driven revolving staircase or large independent steps — or a compact home unit with hydraulic cylinders?",
+        "if_commercial": "On a commercial unit, uneven steps usually come from the chain stretching unevenly or one side's step calibration being off. Try running the step calibration procedure — it's usually in the service menu. Check your owner's manual for the key combination. If that doesn't fix it, the chain or step height sensors probably need a tech.",
+        "if_home_unit": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "On a home stepper — is one side noticeably softer or easier to push down than the other?",
+        "if_yes": "That's almost always a failing hydraulic cylinder on the soft side. The seal inside is leaking, so it's losing its resistance. Check under the pedals for any oil residue near the cylinders — that would confirm it. Replacement cylinders are about twenty-five to sixty dollars and bolt right on.",
+        "if_opposite_harder": "If one side feels harder or stiffer, the cylinder might be jammed or the bushings at the pivot point might be worn. Try squirting some silicone lubricant on the pivot points to see if that frees it up.",
+        "diy_possible": true
+      },
+      {
+        "question": "Do the pedals wobble side to side at all, or feel like they have extra play in them?",
+        "if_yes": "That's the pivot bushings. They're the little plastic or bronze sleeves where the pedal arm connects to the frame. When they wear out, you get wobble and uneven motion. They're cheap — about ten to thirty dollars — but some models make them tricky to get to. Want our tech to handle that?",
+        "if_no": "If there's no wobble and the motion is smooth but one side is just weaker, it's the hydraulic cylinder. You can replace it yourself or we can send a tech.",
+        "diy_possible": true
+      },
+      {
+        "question": "Would you like to try the fix yourself, or should I set up a tech visit?",
+        "if_diy": "resolution_diy",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will check the cylinders, bushings, and pivot points and get everything even again.",
+    "resolution_diy": "Start with the easier side — if the cylinder looks oily, that's your culprit. I'd replace both so they match. Call us if you need any help.",
+    "safety_abort": "If one side suddenly gives way or drops with no resistance, stop using the machine immediately. That could cause a fall or injury. Let me get a tech out to you."
+  },
+
+  "bike__no_resistance": {
+    "equipment_type": "exercise_bike",
+    "entry_symptom": "Exercise bike resistance not working",
+    "talk_track_opener": "Let's get your resistance working again. There are a few different types of resistance systems on exercise bikes, so I'll ask a couple questions to narrow it down.",
+    "steps": [
+      {
+        "question": "Quick safety check first — do you notice any burning smell or see any sparks when you use the bike?",
+        "if_yes": "safety_abort",
+        "if_no": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "When you turn the resistance knob or press the resistance buttons on the console, does anything happen at all? Any sound, any change, even slight?",
+        "if_some_change": "So it's doing something, just not enough. That could be a worn friction pad or a partially stuck mechanism. Let me ask a couple more things.",
+        "if_nothing": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Does your bike use a manual knob that you physically turn, or electronic buttons on the console to change resistance?",
+        "if_manual_knob": "With a manual knob, there's usually a friction pad or magnetic brake that moves closer to the flywheel when you turn the knob. Open the flywheel cover if you can and check — is there a felt pad that looks worn, shiny, or very thin? If the pad is worn down, that's your problem. Replacement pads are about ten to twenty dollars and they're easy to swap.",
+        "if_electronic": "Electronic resistance means there's a small motor that moves the brake for you. Try unplugging the bike for sixty seconds and plugging it back in to reset the control board. If that doesn't help, the servo motor or wiring between the console and motor is the likely issue.",
+        "diy_possible": true
+      },
+      {
+        "question": "For manual knob bikes — when you turn the knob all the way, can you hear or feel the brake making contact with the flywheel at all?",
+        "if_yes_contact": "If the brake touches but doesn't grip, the pad surface is glazed over. You can try roughing it up with sandpaper as a temporary fix, but a new pad is cheap and will work much better.",
+        "if_no_contact": "If the brake never touches the flywheel no matter how far you turn the knob, the tension cable that connects the knob to the brake might be stretched, broken, or disconnected. Take a look — if you can see a cable running from the knob area to the brake, check if it's connected at both ends.",
+        "diy_possible": true
+      },
+      {
+        "question": "Does that give you enough to try a fix, or would you like our tech to come take a look?",
+        "if_will_try": "resolution_diy",
+        "if_wants_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me get your info. Our tech will bring the common replacement parts — brake pads, cables, and a servo motor — so we can hopefully fix it in one visit.",
+    "resolution_diy": "Give that a shot. Replacement brake pads and tension cables are available on Amazon for most models. Search your bike's brand and model number. Call us if you get stuck.",
+    "safety_abort": "If you smell burning or see sparks, stop pedaling and unplug the bike right away. That could be an electrical issue in the resistance system. Let me get a tech scheduled for you."
+  },
+
+  "bike__noise": {
+    "equipment_type": "exercise_bike",
+    "entry_symptom": "Exercise bike making clicking, grinding, or squeaking noises",
+    "talk_track_opener": "Noisy exercise bikes are really common, and the source of the noise tells us a lot about what's going on. Let me help you pin it down.",
+    "steps": [
+      {
+        "question": "First — does the noise happen with every pedal rotation, like a click-click-click that speeds up as you pedal faster? Or is it more constant?",
+        "if_rhythmic": "A click that repeats every rotation usually means pedals, crank arms, or the drive system. Let me narrow it further.",
+        "if_constant": "A constant noise that doesn't change with your pedaling speed is usually the flywheel bearings. That's a tech repair in most cases, but let me check a couple things first.",
+        "diy_possible": false
+      },
+      {
+        "question": "Let's check the pedals. Grab each pedal and try to wobble it — push it up and down and side to side. Does either one feel loose or have play in it?",
+        "if_loose": "A loose pedal is probably your noise. Here's the important thing — the left pedal is reverse-threaded. That means you tighten the left pedal by turning it counterclockwise, which is the opposite of what you'd expect. The right pedal tightens normally, clockwise. Use a fifteen millimeter wrench or a pedal wrench and snug them up. That fixes clicking on exercise bikes more often than anything else.",
+        "if_solid": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Next, check the crank arms — those are the pieces the pedals bolt into that connect to the center of the bike. Grab one and try to push it side to side, toward and away from the frame. Any wobble?",
+        "if_wobble": "A loose crank arm will click or clunk once per revolution. There's a bolt on the inside face of the crank arm where it meets the center shaft. Tighten that bolt — you'll probably need an Allen wrench or socket, depending on the bike. This is a really important one to catch because riding on a loose crank will strip the splines and then you'll need a new crank arm.",
+        "if_solid": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Is the noise more of a squealing or squeaking sound, especially when the resistance is turned up?",
+        "if_yes": "That's the brake pad rubbing on the flywheel. If your bike uses a friction resistance system, the pad might be glazed. You can try roughing it up with sandpaper, or replace the pad for about ten to twenty dollars. If the squealing only happens when resistance is off, the pad might be misaligned and barely touching the flywheel.",
+        "if_no": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "If we've checked the pedals, cranks, and brake pad and none of those are the source, it's likely the flywheel bearings or the drive belt. Those will need our tech to look at. The bearings are a common wear item, and they can usually be replaced on-site. Want me to get someone scheduled?",
+        "if_yes": "resolution_needs_tech",
+        "if_no": "No problem. The bike is safe to use — the noise is more annoying than dangerous. But bearings will get louder over time, so give us a call when you're ready.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will bring bearings and other common parts to fix it in one visit.",
+    "resolution_diy": "Try those fixes and see if the noise goes away. Remember — left pedal is reverse-threaded. Give us a call if the noise is still there after tightening everything up.",
+    "safety_abort": "If you hear a sudden loud grinding or the pedals feel like they're catching or locking up, stop pedaling right away. That could be a bearing seizing, and continuing to use it could cause a bigger problem. Let me get a tech out to you."
+  },
+
+  "bike__console_dead": {
+    "equipment_type": "exercise_bike",
+    "entry_symptom": "Exercise bike console or display is dead",
+    "talk_track_opener": "A dead console on an exercise bike is usually a quick fix. Let me run through the most common causes with you.",
+    "steps": [
+      {
+        "question": "Does your bike's console use batteries, or does the bike plug into the wall?",
+        "if_batteries": "Let's start there. Pop the battery cover off the back of the console and check the batteries. Even if you think they're fine, swap in fresh ones. Also look for any white or greenish corrosion on the battery contacts — that'll block the connection. If you see corrosion, clean it off with a cotton swab dipped in white vinegar.",
+        "if_plugs_in": "Make sure it's plugged in and the outlet is working — try plugging something else into the same outlet to test it.",
+        "if_self_powered": "Some bikes generate their own power from pedaling. Try pedaling at a moderate speed for about thirty seconds. If the console flickers or comes on briefly, the generator is working but the console might need a steady speed. If nothing happens at all, the generator or the wiring may have failed.",
+        "diy_possible": true
+      },
+      {
+        "question": "If it plugs in — try unplugging the bike for ten full minutes, then plug it back in. Does the console come back?",
+        "if_yes": "resolution_diy",
+        "if_no": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Is there a small wire or cable running from the base of the bike up to the console — maybe through the handlebar post? Sometimes those come loose, especially if the bike has been moved or assembled recently.",
+        "if_found_loose": "Reconnect it firmly and try again. Make sure the machine is unplugged when you're handling any wiring.",
+        "if_all_connected": "next",
+        "if_cant_see": "It might be internal. No worries — our tech can check that.",
+        "diy_possible": true
+      },
+      {
+        "question": "Here's one more thing to check — some bikes have a speed sensor near the flywheel, usually a small rectangular piece mounted close to the edge of the wheel. If that sensor gets bumped out of position, the console might not register any movement. Can you see it?",
+        "if_sees_sensor": "Make sure there's only about an eighth of an inch gap between the sensor and the magnet on the flywheel. If it's been pushed far away, gently move it closer. That can sometimes bring the display back to life.",
+        "if_cant_find": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "If we've tried batteries, reset, wiring, and sensor, and it's still dead, the console board itself has probably failed. Our tech can test it and order a replacement if needed. Want me to get that set up?",
+        "if_yes": "resolution_needs_tech",
+        "if_no": "The bike itself still works fine for a workout — you just won't have the display data. Give us a call when you're ready to get it sorted out.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. The tech will check the wiring, sensor, and console to find the issue.",
+    "resolution_diy": "That reset did the trick. If it happens again — especially after a power flicker or storm — try the unplug-for-ten-minutes reset first. Call us if it keeps happening.",
+    "safety_abort": "If you see any burn marks on the console or wiring, or smell anything burning, unplug the bike and don't use it until a tech can check it. Let me get that scheduled."
+  },
+
+  "rower__resistance_stuck": {
+    "equipment_type": "rower",
+    "entry_symptom": "Rower resistance not changing or feels stuck",
+    "talk_track_opener": "Let's get your rower's resistance sorted out. The fix depends on what type of rower you have, so I'll ask you that first.",
+    "steps": [
+      {
+        "question": "What type of rower do you have? Is it an air rower — like a Concept2 where you can feel wind from the fan — a water rower with a tank, or a magnetic rower where resistance is controlled electronically?",
+        "if_air": "next",
+        "if_water": "On a water rower, resistance comes from the amount of water in the tank. Has the water level dropped? Check the fill markings on the side of the tank. If it's low, top it off with clean water and add a purification tablet. If the water level is fine but resistance still feels off, the impeller inside might be damaged — that's a tech repair.",
+        "if_magnetic": "For a magnetic rower, try unplugging it for sixty seconds and plugging it back in. If the resistance still won't change, the servo motor or wiring between the console and motor probably needs attention from our tech.",
+        "diy_possible": true
+      },
+      {
+        "question": "For your air rower — there's a damper lever on the side of the flywheel cage, usually numbered one through ten. Does the lever move freely when you slide it?",
+        "if_moves_freely": "next",
+        "if_stuck_or_stiff": "The damper flap inside is probably jammed with dust. Here's what to do — take the cage off the flywheel, which usually means removing a few screws. Then vacuum or blow out all the dust from the fan blades and the damper mechanism. Dust buildup is the number one cause of resistance problems on air rowers. Concept2 recommends cleaning the flywheel cage regularly.",
+        "diy_possible": true
+      },
+      {
+        "question": "Even with the damper moving, does the resistance feel generally weak — like it's not as hard to pull as it used to be?",
+        "if_yes": "That's almost always dust on the fan blades and inside the cage. Same fix — remove the cage cover, vacuum the fan blades thoroughly, and wipe down the inside of the cage. You'll be amazed at the difference. Most people are shocked at how much dust builds up in there.",
+        "if_no_feels_fine_now": "resolution_diy",
+        "diy_possible": true
+      },
+      {
+        "question": "One more thing — does the handle feel gritty or rough when you pull, like there's sand in the mechanism?",
+        "if_yes": "That gritty feeling means the clutch or the chain needs attention. For Concept2 rowers, put a few drops of chain oil on the chain — five drops max, then work it back and forth. If the grittiness is inside the flywheel, the one-way clutch might need replacement. That's a tech job.",
+        "if_no": "Sounds like a good cleaning should take care of it. Give it a thorough vacuum and let me know if the resistance comes back to where you expect it.",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me get your info. Our tech is familiar with all types of rowers and will bring the right parts.",
+    "resolution_diy": "A good cleaning makes a huge difference on rowers. Try to vacuum the flywheel area every month or two, and oil the chain regularly. Call us if the problem comes back.",
+    "safety_abort": "If you hear any sudden loud metallic sounds or the chain/cord looks frayed, stop using the rower immediately. A broken chain or cord mid-pull can snap back and cause injury. Let me get a tech scheduled."
+  },
+
+  "rower__seat_issue": {
+    "equipment_type": "rower",
+    "entry_symptom": "Rower seat not gliding smoothly",
+    "talk_track_opener": "A sticky or jerky seat on a rower makes the whole workout miserable. Good news is this is usually a quick fix. Let me walk you through it.",
+    "steps": [
+      {
+        "question": "Is the seat sticking at certain points, or is the whole glide rough and gritty from end to end?",
+        "if_certain_points": "There's probably debris or a rough spot on the rail at that point. Run your hand along the full length of the rail — carefully — and feel for any bumps, grit, or rough patches. Wipe the rail down with a damp cloth, dry it, and then spray a very light mist of silicone lubricant on it.",
+        "if_whole_length": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "When was the last time you cleaned the rail — the track that the seat rolls on?",
+        "if_recently": "next",
+        "if_long_time_or_never": "Start there. Wipe the entire rail down with a damp cloth to get off any dust, lint, sweat residue, or grit. Dry it completely, then spray a very light coat of silicone lubricant and wipe it down so it's not wet — just slightly slick. Try the seat again.",
+        "diy_possible": true
+      },
+      {
+        "question": "Flip the seat over if you can and look at the rollers — the small wheels on the underside of the seat. Do any of them have flat spots, or do they feel rough when you spin them with your finger?",
+        "if_flat_spots": "That's your problem. Flat spots develop when the rower sits unused in one position. The rollers are a replaceable part. For a Concept2, the roller kit is about fifteen to thirty dollars and it's a straightforward swap. For other brands, search the model number plus 'seat rollers' online.",
+        "if_smooth": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Check the footplate area — where your feet go. Are the bolts holding the footplates nice and tight?",
+        "if_loose": "Believe it or not, loose footplate bolts cause about forty percent of seat alignment problems on rowers. The footplates shift slightly, which angles the rail, and the seat starts binding. Tighten those up and try the seat again.",
+        "if_tight": "If the rail is clean, the rollers are good, and the footplates are tight, the rail itself might be bent. That can happen if the rower was dropped or something heavy was set on it. Our tech can check if the rail is straight and replace it if needed.",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will check the rail, rollers, and alignment to get your seat gliding smooth again.",
+    "resolution_diy": "Give that a try — clean rail, check the rollers, tighten the footplates. That combination fixes the seat on rowers about ninety percent of the time. Call us if it's still giving you trouble.",
+    "safety_abort": "If the seat is actually coming off the rail or feels like it could come off during use, stop immediately. That's a fall risk. Let me get a tech out to check the seat assembly."
+  },
+
+  "rower__monitor_dead": {
+    "equipment_type": "rower",
+    "entry_symptom": "Rower monitor is dead or showing inaccurate data",
+    "talk_track_opener": "Let's see if we can get your rower's monitor going again. This is usually a simple fix — batteries or connections.",
+    "steps": [
+      {
+        "question": "Is the monitor completely dead — totally blank — or is it on but showing wrong numbers or missing segments?",
+        "if_dead": "next",
+        "if_inaccurate": "Inaccurate readings usually mean the pickup sensor — the little wire that goes from the monitor down to the flywheel — is loose or misaligned. Check where it connects to the monitor and make sure it's firmly plugged in. If you can see where it sits near the flywheel, make sure it hasn't been bumped away.",
+        "diy_possible": true
+      },
+      {
+        "question": "Does the monitor use batteries? Most rower monitors — including the Concept2 PM5 — use two D batteries.",
+        "if_yes": "Start there. Replace the batteries with brand new ones — even if the current ones seem fine. Also, look at the battery contacts inside the compartment. Do you see any white or green crusty buildup?",
+        "if_no_or_unsure": "Check the back of the monitor for a battery compartment. It might be covered by a panel held in with a screw. If there's no battery compartment, the monitor might be powered by the flywheel itself.",
+        "diy_possible": true
+      },
+      {
+        "question": "If there's corrosion on the battery contacts — that white or green buildup — take a cotton swab, dip it in white vinegar, and scrub those contacts clean. Dry them off completely, put in fresh batteries, and try it again. Did that bring it back?",
+        "if_yes": "resolution_diy",
+        "if_no": "next",
+        "if_no_corrosion": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "With fresh batteries and clean contacts, if it's still dead, check the cable that runs from the monitor down to the flywheel area. It should be plugged in firmly at both ends. Try unplugging and replugging that cable.",
+        "if_that_fixed_it": "resolution_diy",
+        "if_still_dead": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "We've tried the easy stuff and the monitor is still not responding. The monitor's internal board may have failed. For Concept2, a replacement PM5 is around two hundred dollars. For other brands, check with the manufacturer. Or our tech can come out, test it, and order the right replacement. Want me to set that up?",
+        "if_yes": "resolution_needs_tech",
+        "if_no": "The rower itself works fine without the monitor — you just won't have your stats. Call us when you're ready to get it sorted.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will test the monitor, sensor, and wiring to find the issue.",
+    "resolution_diy": "Battery corrosion is the number one killer of rower monitors. Tip for the future — if you're not going to use the rower for a while, take the batteries out. Keeps the contacts clean. Call us if any other issues come up.",
+    "safety_abort": "If you see any burn marks on the monitor or smell anything burning, unplug any cables and stop using the monitor. The rower itself is fine — just don't use the monitor until a tech checks it."
+  },
+
+  "cable__fraying": {
+    "equipment_type": "cable_machine",
+    "entry_symptom": "Cable is fraying or visibly damaged",
+    "talk_track_opener": "Okay, I need you to stop using the machine right now if you haven't already. A fraying cable is a serious safety issue and we don't take it lightly. Let me walk through this with you.",
+    "steps": [
+      {
+        "question": "Is anyone currently using the machine?",
+        "if_yes": "Please have them stop immediately and step away from the machine. A fraying cable can snap under load, and if it does, the weight stack drops. That's extremely dangerous.",
+        "if_no": "Good. Let's keep it that way until this is resolved.",
+        "diy_possible": false
+      },
+      {
+        "question": "Can you describe what you're seeing? Are there individual wire strands poking out of the cable, or does the cable just look worn or fuzzy in spots?",
+        "if_strands_poking": "That's a cable that needs to be replaced immediately. Do not use the machine. Even one broken strand means the cable is compromised. A snapped cable under load can cause the weight stack to free-fall, which is a serious injury risk.",
+        "if_fuzzy_or_worn": "Even if it looks like just surface wear, run a cloth along the full length of the cable. If the cloth snags anywhere, the cable needs replacement. That snagging means strands are starting to separate.",
+        "diy_possible": false
+      },
+      {
+        "question": "Where on the cable is the damage — near where it wraps around a pulley, near the attachment end where you grip it, or somewhere in the middle?",
+        "if_near_pulley": "Cable wear near pulleys is the most common. It can mean the pulley isn't spinning freely, which puts extra stress on the cable at that point. Our tech will replace the cable and check every pulley in the system to make sure this doesn't happen again quickly.",
+        "if_near_end": "Wear near the end fitting can mean the cable is starting to pull out of its termination. That's especially dangerous because the cable could separate from the attachment under load.",
+        "if_middle": "Damage in the middle of a cable run is unusual and might mean the cable is rubbing on the frame somewhere. Our tech will reroute the cable properly when they replace it.",
+        "diy_possible": false
+      },
+      {
+        "question": "Do you know the brand and model of the machine? That will help our tech bring the right cable.",
+        "if_knows": "Perfect. I'll pass that along to our tech so they can source the correct cable before coming out.",
+        "if_doesnt_know": "No worries — check the frame for a manufacturer sticker. If you can text or email us a photo of the sticker and the damaged cable, our tech can identify the right replacement cable before the visit.",
+        "diy_possible": false
+      },
+      {
+        "question": "I want to make sure — please do not use this machine until the cable is replaced. Can I get your information to schedule a tech visit?",
+        "if_yes": "resolution_needs_tech",
+        "if_no": "I understand, but please — do not use the machine with a fraying cable. If you want to order the cable and do it yourself, just be sure to take photos of the full cable routing before you remove the old one. The routing through multiple pulleys is complex and you need to get it exactly right. But I'd really recommend having a tech do this one.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me get your info. This is a priority repair — we don't want that machine in use with a damaged cable. Our tech will replace the cable and inspect all the pulleys while they're there.",
+    "resolution_diy": "If you do decide to replace it yourself, photograph the full cable routing before removal. Make sure you get the exact replacement cable — same length, same diameter, same end fittings. And test every inch of the new cable before loading weight on it.",
+    "safety_abort": "Do not use this machine. A fraying cable under load can snap without warning. The weight stack can free-fall and cause serious injury. Please keep the machine locked out until the cable is replaced. Let me get a tech to you as soon as possible."
+  },
+
+  "cable__pulley_noise": {
+    "equipment_type": "cable_machine",
+    "entry_symptom": "Pulley is grinding, squealing, or making noise",
+    "talk_track_opener": "A noisy pulley needs attention — not just because it's annoying, but because a bad pulley wears out your cables faster. Let me help you figure out what's going on.",
+    "steps": [
+      {
+        "question": "Before we troubleshoot — run a cloth along the full length of the cable. Does it snag anywhere, or can you see any fraying?",
+        "if_fraying": "Hold on — a fraying cable is a more serious issue than the pulley. Do not use the machine until the cable is replaced. Let me walk you through that instead.",
+        "if_cable_looks_good": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Can you tell which pulley is making the noise? Most cable machines have several pulleys along the cable path. The noisy one might be the one at the top, at a change of direction, or down near the weight stack.",
+        "if_can_identify": "Good. Try spinning that pulley by hand — just push it with your finger. Does it spin freely, or does it feel rough or stop quickly?",
+        "if_not_sure": "No worries. With the machine unloaded — pin pulled out of the weight stack — try pulling the cable slowly through its full range. Listen for where the noise is loudest. That's your problem pulley.",
+        "diy_possible": true
+      },
+      {
+        "question": "If the pulley feels rough, gritty, or won't spin freely, the bearing inside has gone bad. Can you see a groove in the pulley where the cable rides? Is it worn down or does the cable sit crooked in it?",
+        "if_groove_worn": "A worn groove lets the cable sit unevenly, which causes uneven cable wear and can lead to fraying. The whole pulley needs to be replaced. If you're handy, the pulley is usually held on by a bolt through the center. Note the bearing number on the old one so you can get an exact replacement.",
+        "if_groove_fine": "The bearing just needs replacing. Most pulleys use standard sealed bearings. The number is printed on the side of the bearing. You can pop the old one out and press in a new one, or just replace the whole pulley — they're usually ten to thirty dollars each.",
+        "diy_possible": true
+      },
+      {
+        "question": "Is this something you'd like to try yourself, or would you prefer our tech to handle it? If there are multiple noisy pulleys, it might be worth having the tech do a full inspection.",
+        "if_diy": "Order the right bearing or pulley by matching the number on the old one. While you're in there, check all the other pulleys by spinning them by hand. If any others feel rough, replace those too. A bad pulley is the leading cause of cable fraying.",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will inspect every pulley in the system and replace any that are worn. They'll also check the cable routing and cable condition while they're at it.",
+    "resolution_diy": "Good luck with the replacement. Once the new pulley is in, run the cable through its full range slowly a few times to make sure everything tracks smoothly. And keep an eye on the cable near that pulley going forward. Call us if you need anything.",
+    "safety_abort": "If the cable has jumped off a pulley or looks frayed, stop using the machine immediately. A cable rubbing on the frame instead of riding in its pulley will fail quickly. Let me get a tech scheduled."
+  },
+
+  "cable__weight_stuck": {
+    "equipment_type": "cable_machine",
+    "entry_symptom": "Weight stack stuck or not moving smoothly",
+    "talk_track_opener": "A stuck weight stack is frustrating, but it's usually something straightforward. Let me walk you through a few checks.",
+    "steps": [
+      {
+        "question": "Quick safety check — is the selector pin fully inserted, and is it going through the weight plate cleanly? Sometimes the pin doesn't line up with the hole in the weight plate.",
+        "if_pin_issue": "Try pulling the pin out, lifting the stack slightly by hand — just the top plate — to realign the holes, and reinserting the pin. Make sure it goes all the way through and out the other side. If the pin is bent at all, it needs to be replaced. A bent pin is a safety risk — you can get universals online for about five to fifteen dollars.",
+        "if_pin_fine": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "When you try to use the machine, does the weight stack move at all, or is it completely stuck?",
+        "if_completely_stuck": "next",
+        "if_moves_but_sticky": "A sticky weight stack usually means the guide rods need lubrication. Spray silicone lubricant on the vertical guide rods — those are the metal rods the weight plates slide up and down on. Spray them top to bottom, then lift and lower the stack a few times by hand to work the lubricant in. Wipe off the excess.",
+        "diy_possible": true
+      },
+      {
+        "question": "Look at the guide rods — the vertical metal rods that go through the weight plates. Do you see any rust, corrosion, or rough spots on them?",
+        "if_rusty": "Rust on the guide rods will make the stack stick. Clean them with a Scotch-Brite pad or fine steel wool to remove the surface rust, then spray with silicone lubricant. If the rods are deeply pitted, they may need replacing — but surface rust is usually manageable.",
+        "if_clean": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Check the small plastic or nylon bushings inside the weight plates — those are the little sleeves around the holes where the guide rods pass through. Do any of them look cracked, worn, or missing?",
+        "if_worn": "Worn bushings let the weight plates tilt on the guide rods, and that causes binding. Replacement bushings are cheap, but you'll need to remove the plates to swap them. That can be a bigger job depending on the machine. Our tech can handle that if you'd prefer.",
+        "if_look_fine": "If the guide rods are clean, lubricated, and the bushings are good, the cable itself might be jammed or routed incorrectly. Check if the cable has jumped off any pulleys — sometimes weight stacks get stuck because the cable is binding somewhere in the pulley system.",
+        "diy_possible": true
+      },
+      {
+        "question": "Want to try the lubrication and see if that frees things up, or would you like a tech to come do a full inspection?",
+        "if_will_try": "resolution_diy",
+        "if_wants_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will check the guide rods, bushings, cable routing, and pulleys to get everything moving smoothly again.",
+    "resolution_diy": "Give those guide rods a good spray with silicone lubricant and work the stack up and down by hand a few times. Going forward, a quick spray every month or two will keep the stack moving smooth. Call us if it's still sticking.",
+    "safety_abort": "If the weight stack is jammed and you can hear the cable straining, stop pulling immediately. A cable under high tension with a stuck weight stack can snap. Let me get a tech out to free it safely."
+  },
+
+  "smith__bar_sticking": {
+    "equipment_type": "smith_machine",
+    "entry_symptom": "Smith machine bar sticking or grinding on rails",
+    "talk_track_opener": "A sticky bar on a Smith machine makes it hard to get a good workout and can actually be a safety concern. Let's figure out what's going on.",
+    "steps": [
+      {
+        "question": "First and most important — are the safety catches working properly? Can you rotate the bar and have it catch at different heights?",
+        "if_yes": "Good. Now let's fix the sticking issue.",
+        "if_no": "That's a safety concern. The safety catches are what prevent the bar from dropping on you. Stop using the machine until those are working. Let me get a tech out to you — we should fix both the catches and the sticking.",
+        "diy_possible": false
+      },
+      {
+        "question": "When did you last lubricate the guide rods — the vertical metal rods or rails the bar slides on?",
+        "if_recently": "next",
+        "if_long_time_or_never": "That's probably the whole issue. The guide rods need regular lubrication — silicone spray or silicone grease works best. Spray or apply it to both rods from top to bottom, then move the bar up and down the full range a few times to work it in. Most sticking problems on Smith machines are just a lubrication issue.",
+        "diy_possible": true
+      },
+      {
+        "question": "Look at the guide rods themselves. Can you see any scratches, scoring, or rough spots on the surface?",
+        "if_scored": "Scored guide rods are a bigger problem. The linear bearings ride on that surface, and any damage creates a rough spot. If the scoring is light, you can try applying extra lubricant to those areas. If it's deep, the rods may eventually need replacing — but keep it lubricated in the meantime and it should be usable. Our tech can assess the severity if you want.",
+        "if_smooth": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Does the bar stick at the same height every time, or does it stick randomly throughout the range?",
+        "if_same_spot": "A consistent sticky spot means there's something wrong at that specific point — maybe a ding on the rod, debris, or a worn bearing that catches at that position. Focus your lubrication there and see if it improves. If not, the linear bearing might need replacement at that point.",
+        "if_random": "Random sticking throughout the range usually means the linear bearings or bushings themselves are worn out. On budget machines with bronze bushings, those wear faster than ball-bearing slides. Our tech can replace the bushings or bearing assemblies.",
+        "diy_possible": true
+      },
+      {
+        "question": "Does the lubrication fix sound like something you want to try first, or would you prefer our tech to do a full inspection?",
+        "if_will_try": "resolution_diy",
+        "if_wants_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will lube the rails, inspect the linear bearings, and check the safety mechanisms while they're there.",
+    "resolution_diy": "Give those rods a thorough coat of silicone lubricant and work the bar up and down. You should notice a difference right away. Going forward, lubricate those rods monthly — it's the single most important maintenance on a Smith machine. Call us if it's still sticking.",
+    "safety_abort": "If the bar gets stuck under load and you can't re-rack it or engage the safety catches, call for help immediately. Do not try to force a loaded bar that's jammed on the rails. And always test the safety catches before heavy lifts. Let me get a tech scheduled to fix this."
+  },
+
+  "smith__safety_catch": {
+    "equipment_type": "smith_machine",
+    "entry_symptom": "Smith machine safety catches not engaging properly",
+    "talk_track_opener": "This is a safety issue, so I want to be thorough with you. The safety catches on a Smith machine are what keep a heavy bar from landing on you. Let's figure out what's going on and get this resolved.",
+    "steps": [
+      {
+        "question": "First — please do not load any significant weight on the bar until we sort this out. Are you okay with that?",
+        "if_yes": "Thank you. Safety first on this one.",
+        "if_no": "I really need to stress this — the safety catches are the only thing between you and a dropped barbell. Using a Smith machine with unreliable catches is genuinely dangerous. Please keep the weight off until we work through this.",
+        "diy_possible": false
+      },
+      {
+        "question": "When you rotate the bar to engage the catches, does it catch at some positions but not others? Or does it not catch at all?",
+        "if_some_positions": "That tells me specific catch slots are worn, damaged, or blocked with debris. Let me walk you through checking them.",
+        "if_none_at_all": "That's more serious. It could be the hooks on the bar itself that are worn down, or the rotation mechanism isn't working properly. Let me check a couple things with you.",
+        "diy_possible": false
+      },
+      {
+        "question": "Look at the catch slots on the uprights — the small ledges or holes where the hooks grab. Can you see any chalk buildup, debris, or damage in those slots?",
+        "if_debris": "Clean out every catch slot thoroughly — use a stiff brush or compressed air. Chalk and dust build up over time and prevent the hooks from seating fully. After cleaning, test the bar at each position with no weight. If they all catch after cleaning, you're good to go.",
+        "if_clean": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Now look at the hooks on the bar itself — the parts that rotate into the catch slots. Are they worn down, rounded, or damaged? They should have a defined edge that seats firmly into the slot.",
+        "if_worn": "Worn hooks need to be replaced. This is not something you can file or reshape — the hooks need their original profile to hold weight safely. Our tech can source and install replacement hooks. This is a repair I'd strongly recommend having a professional do.",
+        "if_look_fine": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Try rotating the bar without any weight. Does it twist smoothly, or does it feel stiff or like it won't rotate fully?",
+        "if_stiff": "The rotation mechanism needs lubrication or the bushings are worn. Try silicone lubricant on the rotation points. If it still won't rotate fully, the bushings need replacement. Our tech can handle that and make sure the catches are working perfectly before they leave.",
+        "if_smooth_but_still_not_catching": "If the bar rotates fine but still won't catch, the geometry between the hooks and the slots has gotten off — either from wear or the frame shifting. Our tech needs to look at this in person. Let me get someone scheduled.",
+        "diy_possible": false
+      }
+    ],
+    "resolution_needs_tech": "Let me get your info right away. This is a safety-critical repair — we'll prioritize getting a tech out to you. They'll test every catch position under load before they leave.",
+    "resolution_diy": "Good — cleaning the catch slots fixed it. Test every position with no weight to make sure they all engage. Going forward, clean those slots out regularly, especially if you use chalk. Call us immediately if the catches ever feel unreliable.",
+    "safety_abort": "Do not use this machine until the safety catches are confirmed working at every position. I cannot stress this enough — a Smith machine with failed catches can drop hundreds of pounds on you. Let me get a tech out to you as a priority."
+  },
+
+  "smith__cable_problem": {
+    "equipment_type": "smith_machine",
+    "entry_symptom": "Smith machine cable or pulley system issues",
+    "talk_track_opener": "A lot of home Smith machines come with built-in cable crossover or pulley stations. Let me help you sort out what's going on with yours.",
+    "steps": [
+      {
+        "question": "First — can you see any fraying on the cable? Run a cloth along the full length. Does it catch or snag?",
+        "if_fraying": "Stop using the cable system immediately. Do not pull on a fraying cable — if it snaps under load, the weight stack drops and that's a serious injury risk. Our tech needs to replace that cable. Let me get someone out to you.",
+        "if_cable_looks_fine": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "What's the problem you're experiencing? Is the cable not pulling smoothly, has it jumped off a pulley, or is the resistance uneven?",
+        "if_not_smooth": "A cable that's not pulling smoothly usually means a pulley isn't spinning freely. Check each pulley the cable passes through — spin them by hand and see if any feel rough or stuck.",
+        "if_jumped_off_pulley": "Don't try to force it back on while the weight is attached. First, pull the selector pin out of the weight stack to remove all tension. Then carefully guide the cable back into the pulley groove. If the cable keeps jumping off the same pulley, the groove is likely worn and the pulley needs replacing.",
+        "if_uneven_resistance": "Uneven resistance usually means a bad pulley or cable routing problem. Check that the cable is seated in every pulley groove correctly and that no pulleys are seized.",
+        "diy_possible": true
+      },
+      {
+        "question": "Multi-function home gyms have complex cable routing — the cable goes through multiple pulleys, sometimes in a specific pattern. Do you have the owner's manual showing the cable routing diagram?",
+        "if_yes": "Great — compare the actual routing to the diagram. If anything is off, the cable might be crossed or sitting in the wrong pulley groove. That would explain any pulling issues.",
+        "if_no": "Before doing anything, take photos of the entire cable routing from multiple angles. If you search your machine's brand and model number plus 'cable routing diagram,' you can usually find it online. Getting the routing right is critical.",
+        "diy_possible": true
+      },
+      {
+        "question": "Is this something you're comfortable working on, or would you like our tech to handle it? Cable routing on multi-function machines can be tricky.",
+        "if_diy": "Just remember — always remove the selector pin from the weight stack before doing any cable work. No tension on the cable when you're working on it. And photograph everything before you change anything.",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will inspect the whole cable and pulley system — cables, routing, pulleys, and weight stack. They'll bring replacement cables and pulleys for the most common setups.",
+    "resolution_diy": "Take your time with the cable routing and refer to the diagram. Always remove the weight pin before working on any cable. Call us if you get stuck or if the cable shows any signs of fraying.",
+    "safety_abort": "If the cable is fraying, do not use the cable system at all. A snapped cable under load is one of the most dangerous failures in gym equipment. Keep the machine locked out until the cable is replaced. Let me get a tech to you right away."
+  },
+
+  "spin__resistance_issue": {
+    "equipment_type": "spin_bike",
+    "entry_symptom": "Spin bike resistance knob not working properly",
+    "talk_track_opener": "Let's get your resistance working. Spin bikes use a couple different systems, so I'll figure out which you have and go from there.",
+    "steps": [
+      {
+        "question": "Quick safety check — do you notice any burning smell when you ride? Especially when the resistance is turned up?",
+        "if_yes": "That burning smell is the brake pad overheating from friction. It's not immediately dangerous, but it means the pad is either glazed or worn thin. Don't use high resistance until the pad is replaced.",
+        "if_no": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Does your bike have a physical knob you turn by hand to change resistance, or do you adjust it electronically through a screen?",
+        "if_knob": "next",
+        "if_electronic": "For electronic resistance, try unplugging the bike for sixty seconds and plugging it back in. If the resistance still won't respond, the servo motor or wiring between the screen and the brake is likely the issue. That'll need our tech.",
+        "diy_possible": false
+      },
+      {
+        "question": "When you turn the resistance knob, does it feel like it's doing something mechanically — like you can feel it engaging — or does it just spin freely?",
+        "if_engages": "If you can feel the knob doing something but the resistance doesn't change much, the brake pad is probably worn down. On most spin bikes, the resistance knob pushes a felt pad against the flywheel. When the pad wears thin, it can't grip anymore. Replacement pads are about ten to twenty-five dollars and they're a straightforward swap. Want me to walk you through it?",
+        "if_spins_freely": "If the knob spins without engaging, the cable or linkage connecting the knob to the brake mechanism has either broken, disconnected, or stretched. Look under the flywheel cover for a cable or lever arm. If the cable is disconnected, you might be able to reattach it. If it's broken, our tech can replace it.",
+        "diy_possible": true
+      },
+      {
+        "question": "If it's the brake pad — can you see the flywheel cover? Some spin bikes have a removable cover over the flywheel. Can you take it off and see the pad?",
+        "if_yes_can_see_pad": "Look at the pad surface. If it's shiny and glazed, you can try roughing it up with sandpaper as a temporary fix. If it's visibly thin — less than a quarter inch — it needs replacing. Search your bike's brand and model number plus 'replacement brake pad' online. Most pads are held in with one or two bolts.",
+        "if_cant_access": "No worries. Our tech can pop the cover off, inspect the pad, and replace it on the spot. They'll bring pads that fit the most common spin bike models.",
+        "diy_possible": true
+      },
+      {
+        "question": "Want to try the pad replacement yourself, or should I set up a tech visit?",
+        "if_diy": "resolution_diy",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will inspect the resistance system and bring replacement pads and cables for the most common spin bike models.",
+    "resolution_diy": "Brake pads are a consumable item — they wear out with use, especially if you ride at high resistance a lot. Keep a spare on hand so you're not waiting for shipping when the next one wears out. Call us if you need anything else.",
+    "safety_abort": "If you see sparks or the burning smell is strong, stop riding and let the flywheel cool down completely before touching anything. A severely overheating brake pad can damage the flywheel surface. Let me get a tech out if the problem persists."
+  },
+
+  "spin__noise": {
+    "equipment_type": "spin_bike",
+    "entry_symptom": "Spin bike making clicking, grinding, or wobbling noises",
+    "talk_track_opener": "A noisy spin bike can mean a few different things. Let me help you figure out where the sound is coming from so we know what to fix.",
+    "steps": [
+      {
+        "question": "Does the noise happen with every pedal stroke — like a click or tick that speeds up as you pedal faster — or is it a constant sound?",
+        "if_rhythmic": "A rhythmic click that matches your pedaling is almost always in the pedals, crank arms, or drive system. Let me narrow it down.",
+        "if_constant": "A constant sound regardless of pedal speed is likely the flywheel bearings. That's a very common issue, especially on Peloton bikes. Let me check a couple things.",
+        "diy_possible": false
+      },
+      {
+        "question": "Let's check the pedals first. Grab each pedal and try to wobble it. Any looseness?",
+        "if_loose": "Tighten those up. Remember — the left pedal is reverse-threaded. That means you tighten the left one by turning it counterclockwise. Right pedal tightens clockwise, like normal. Use a fifteen millimeter wrench. Loose pedals are the number one cause of clicking on spin bikes.",
+        "if_tight": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Now check the crank arms — grab one and try to push it side to side, toward and away from the frame. Any movement?",
+        "if_yes": "Loose crank arms click or clunk once per revolution. Tighten the crank bolt — you'll need the right size Allen wrench or socket. Do this sooner rather than later, because riding on a loose crank will strip the splines and then the whole crank arm needs replacing.",
+        "if_no": "next",
+        "diy_possible": true
+      },
+      {
+        "question": "Is the noise more of a rhythmic tick-tick-tick, almost like a playing card in bicycle spokes?",
+        "if_yes": "That's the classic flywheel bearing sound, especially on Peloton bikes. The bearings wear out from sweat exposure — sweat drips right onto the flywheel housing on most spin bikes. The bearings need to be replaced. Our tech can do that on-site, usually in under an hour.",
+        "if_no": "next",
+        "diy_possible": false
+      },
+      {
+        "question": "Does the bike wobble or rock during use? Try sitting on it and rocking side to side gently.",
+        "if_wobbles": "Check if all four feet are on the ground — on an uneven floor, one foot will be off the ground and the bike rocks. Most spin bikes have adjustable leveling feet at the base. Twist them until all four are firmly planted. Also check that all the frame bolts are tight.",
+        "if_stable": "If the pedals and cranks are tight, the bike is stable, and you're still hearing noise, it's internal — bearings, bottom bracket, or drive belt. Our tech can pinpoint and fix it. Want me to set up a visit?",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will bring replacement bearings for the most common spin bike models and track down the noise source.",
+    "resolution_diy": "Tighten everything up and see if the noise goes away. And here's a tip — wipe your bike down after every ride. Sweat is the number one killer of spin bike components. A towel draped over the frame during your ride catches most of it. Call us if the noise is still there.",
+    "safety_abort": "If you hear a sudden loud metallic snap or the pedals feel like they're catching or locking up, stop immediately. That could be a bearing seizing or a drive belt issue that could cause the pedals to lock without warning. Let me get a tech scheduled."
+  },
+
+  "spin__pedal_issue": {
+    "equipment_type": "spin_bike",
+    "entry_symptom": "Spin bike pedal or cleat problems",
+    "talk_track_opener": "Pedal and cleat issues on spin bikes are really common and almost always fixable. Let me figure out what's going on with yours.",
+    "steps": [
+      {
+        "question": "What's happening exactly? Is the cleat not clipping in, are you having trouble getting unclipped, or are the pedals themselves loose or making noise?",
+        "if_wont_clip_in": "next",
+        "if_wont_unclip": "That's usually the tension spring on the pedal set too tight. There's a small adjustment screw or bolt on most clipless pedals — turn it counterclockwise to loosen the release. On Peloton pedals with Look Delta cleats, check if the cleat on your shoe is worn — worn cleats can jam in the mechanism.",
+        "if_loose_or_noisy": "A loose pedal is usually just a tightening issue. Remember — the left pedal is reverse-threaded. Tighten the left pedal by turning counterclockwise, right pedal tightens clockwise. Use a fifteen millimeter wrench and get them snug.",
+        "diy_possible": true
+      },
+      {
+        "question": "Do you use clipless pedals — the kind you clip cycling shoes into — or the platform pedals with toe cages and straps?",
+        "if_clipless": "next",
+        "if_toe_cages": "Toe cage straps break pretty often, especially on budget bikes. Replacement straps are about five to fifteen dollars. If the cage itself is cracked, you can usually replace just the cage. Or you might consider upgrading to dual-sided pedals — SPD cleats on one side, flat platform on the other. They're about thirty to fifty dollars and a big upgrade.",
+        "diy_possible": true
+      },
+      {
+        "question": "What kind of cleats does your bike use — do you know? Peloton uses Look Delta, which are the large triangle-shaped cleats. Most gym spin bikes use SPD, which are smaller and recessed into the shoe.",
+        "if_look_delta": "Check the cleats on the bottom of your shoes. Look Delta cleats wear out and the tips get rounded. If the red, yellow, or gray tips are worn down, they won't clip in securely. Replacement cleats are about fifteen to twenty-five dollars and you just need an Allen wrench to swap them.",
+        "if_spd": "SPD cleats also wear out but they're very cheap — about ten to fifteen dollars for a set. Check if the cleat is loose on the shoe, too. The two bolts can vibrate loose over time.",
+        "if_not_sure": "Look at the bottom of your cycling shoe. If you see a large triangle shape, that's Look Delta. If you see a small rectangular metal piece recessed into the sole, that's SPD.",
+        "diy_possible": true
+      },
+      {
+        "question": "How old are your cleats? If you've been riding regularly for more than six months, they're probably due for a replacement regardless.",
+        "if_old": "Fresh cleats will make a world of difference. They'll clip in and out crisply. It's one of those things where you don't realize how worn they are until you put new ones on.",
+        "if_new_or_recent": "If the cleats are new and still won't clip in, the pedal mechanism itself might be worn or damaged. Try a different pair of shoes if you can, to rule out the cleat. If it's the pedal, replacement pedals are about thirty to one hundred dollars depending on the type, and they just thread on.",
+        "diy_possible": true
+      },
+      {
+        "question": "Sound like something you can handle, or want our tech to take a look?",
+        "if_diy": "resolution_diy",
+        "if_tech": "resolution_needs_tech",
+        "diy_possible": true
+      }
+    ],
+    "resolution_needs_tech": "Let me grab your info. Our tech will check the pedals, cleats, and crank arms and make sure everything is working properly.",
+    "resolution_diy": "Cleats and pedals are something most people can handle at home. Just remember — left pedal is reverse-threaded. And keep those cleat bolts checked periodically. Call us if you need anything else.",
+    "safety_abort": "If a pedal is wobbly or feels like it might come off during riding, stop immediately. A pedal failure while standing and sprinting can cause a serious fall. Tighten it or replace it before riding again."
+  }
+}
